@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 278f49c29d6aba14a83d9b33362e4452, type: 3}
+  m_Name: Input Icon Database
+  m_EditorClassIdentifier: 
+  inputIconSchemeDatabases:
+  - {fileID: 11400000, guid: 494849d4e2ccf47468a9e80d725c134c, type: 2}
+  - {fileID: 11400000, guid: a67b5f7e6f46a84469162f1136f83946, type: 2}
