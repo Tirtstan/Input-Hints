@@ -12,7 +12,7 @@ namespace InputHints
         )]
         public string BindingPath;
 
-        [SearchContext(@"dir:""Input-Hints/Input Icons""", SearchViewFlags.GridView | SearchViewFlags.Centered)]
+        [SearchContext(@"dir:""Input Icons""", SearchViewFlags.GridView | SearchViewFlags.Centered)]
         public Sprite Sprite;
         public Color Tint = Color.white;
     }
