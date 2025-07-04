@@ -1,6 +1,6 @@
 {
     "name": "com.tirt.input-hints",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Input Hints",
     "description": "A base package that provides a set of tools to manage input hints in Unity.",
     "unity": "2019.4",

@@ -2952,6 +2952,7 @@ GameObject:
   - component: {fileID: 2025600663}
   - component: {fileID: 2025600667}
   - component: {fileID: 2025600666}
+  - component: {fileID: 2025600668}
   m_Layer: 5
   m_Name: InteractButton
   m_TagString: Untagged
@@ -3103,6 +3104,20 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &2025600668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025600661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9212f8cbbe9b58c4bb7395e156df3d67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputActionReference: {fileID: -2719573834365435966, guid: 484cec4deca5b6e4da9daa5ca1c6139d, type: 3}
+  triggerOnRelease: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
