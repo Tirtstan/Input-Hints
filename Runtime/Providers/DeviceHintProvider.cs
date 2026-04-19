@@ -25,11 +25,7 @@ namespace InputHints.Providers
             return false;
         }
 
-        public bool TryGetHint(
-            IReadOnlyList<InputDevice> devices,
-            string controlPath,
-            out Sprite sprite
-        )
+        public bool TryGetHint(IReadOnlyList<InputDevice> devices, string controlPath, out Sprite sprite)
         {
             sprite = null;
 
@@ -41,10 +37,7 @@ namespace InputHints.Providers
 
             for (int i = 0; i < HintMaps.Count; i++)
             {
-                if (
-                    HintMaps[i] != null
-                    && HintMaps[i].TryGetEntry(localPath, out HintMapSO.HintEntry entry)
-                )
+                if (HintMaps[i] != null && HintMaps[i].TryGetEntry(localPath, out HintMapSO.HintEntry entry))
                 {
                     sprite = entry.Glyph;
                     return true;
@@ -54,10 +47,7 @@ namespace InputHints.Providers
             return false;
         }
 
-        public bool TryGetTMPSpriteAsset(
-            IReadOnlyList<InputDevice> devices,
-            out TMP_SpriteAsset spriteAsset
-        )
+        public bool TryGetTMPSpriteAsset(IReadOnlyList<InputDevice> devices, out TMP_SpriteAsset spriteAsset)
         {
             spriteAsset = null;
 
@@ -76,11 +66,7 @@ namespace InputHints.Providers
             return false;
         }
 
-        public bool TryGetTMPName(
-            IReadOnlyList<InputDevice> devices,
-            string controlPath,
-            out string tmpName
-        )
+        public bool TryGetTMPName(IReadOnlyList<InputDevice> devices, string controlPath, out string tmpName)
         {
             tmpName = null;
 
@@ -92,10 +78,7 @@ namespace InputHints.Providers
 
             for (int i = 0; i < HintMaps.Count; i++)
             {
-                if (
-                    HintMaps[i] != null
-                    && HintMaps[i].TryGetEntry(localPath, out HintMapSO.HintEntry entry)
-                )
+                if (HintMaps[i] != null && HintMaps[i].TryGetEntry(localPath, out HintMapSO.HintEntry entry))
                 {
                     tmpName = entry.ResolvedTMPName;
                     return true;

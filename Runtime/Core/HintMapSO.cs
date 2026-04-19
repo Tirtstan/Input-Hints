@@ -39,9 +39,7 @@ namespace InputHints
         private HintEntry[] entries = Array.Empty<HintEntry>();
 
         [Header("TMP")]
-        [Tooltip(
-            "TMP Sprite Asset for inline <sprite name=X> tags. Sprite names should match control paths."
-        )]
+        [Tooltip("TMP Sprite Asset for inline <sprite name=X> tags. Sprite names should match control paths.")]
         [SerializeField]
         private TMP_SpriteAsset tmpSpriteAsset;
 

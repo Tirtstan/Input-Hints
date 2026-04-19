@@ -13,11 +13,7 @@ namespace InputHints
         /// <summary>
         /// Gets the indexes of all bindings in the action that match the specified binding mask.
         /// </summary>
-        public static void GetBindingIndexes(
-            this InputAction action,
-            InputBinding bindingMask,
-            List<int> results
-        )
+        public static void GetBindingIndexes(this InputAction action, InputBinding bindingMask, List<int> results)
         {
             results.Clear();
 

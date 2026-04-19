@@ -19,9 +19,7 @@ namespace InputHints.Display
         [Tooltip("Input Action name used to resolve the displayed hint.")]
         public string ActionName = string.Empty;
 
-        [Tooltip(
-            "Optional binding index to resolve when multiple bindings are present. Default is 0."
-        )]
+        [Tooltip("Optional binding index to resolve when multiple bindings are present. Default is 0.")]
         [Min(0)]
         public int BindingIndex = 0;
 
@@ -99,13 +97,7 @@ namespace InputHints.Display
             if (action == null)
                 return;
 
-            if (
-                InputLayoutPathUtility.TryGetActionBindingPaths(
-                    action,
-                    PlayerInput.currentControlScheme,
-                    pathBuffer
-                )
-            )
+            if (InputLayoutPathUtility.TryGetActionBindingPaths(action, PlayerInput.currentControlScheme, pathBuffer))
             {
                 OnBindingsResolved(devices, pathBuffer);
             }

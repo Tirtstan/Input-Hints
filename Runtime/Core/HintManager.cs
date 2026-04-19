@@ -36,11 +36,7 @@ namespace InputHints
         /// Tries to get a hint sprite for the given control path, falling back to
         /// parent paths (e.g. "dpad/left" → "dpad") if no direct match is found.
         /// </summary>
-        public static bool TryGetHint(
-            IReadOnlyList<InputDevice> activeDevices,
-            string controlPath,
-            out Sprite sprite
-        )
+        public static bool TryGetHint(IReadOnlyList<InputDevice> activeDevices, string controlPath, out Sprite sprite)
         {
             for (int i = 0; i < providers.Count; i++)
             {

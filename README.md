@@ -1,8 +1,15 @@
 # Input Hints
 
-A lightweight, sprite-based input hint system for **Unity's Input System and UGUI**. Automatically swaps controller prompts (keyboard, mouse, gamepads including Xbox, PlayStation, Switch, Steam Deck, and Steam Controller) based on the active device, with layout-agnostic lookups and parent-path fallback. *Inspired by **[Input Glyphs](https://github.com/eviltwo/InputGlyphs)** by eviltwo*.
+A lightweight, sprite-based input hint system for **Unity's Input System and UGUI**. Automatically swaps controller prompts (keyboard, mouse, gamepads including Xbox, PlayStation, Switch, Steam Deck, and Steam Controller) based on the active device, with layout-agnostic lookups and parent-path fallback. _Inspired by **[Input Glyphs](https://github.com/eviltwo/InputGlyphs)** by eviltwo_.
 
-
+<div style="display:flex; gap:12px; flex-wrap:wrap; align-items:stretch;">
+  <div style="flex:1 1 280px; max-width:49%;">
+    <img src="Documentation/Images/Keyboard.png" alt="Screenshot of the input hints showing keyboard prompts" style="display:block; width:100%; height:auto;">
+  </div>
+  <div style="flex:1 1 280px; max-width:49%;">
+    <img src="Documentation/Images/Controller.png" alt="Screenshot of the input hints showing controller (Xbox) prompts" style="display:block; height:100%; width:auto; max-width:100%; object-fit:contain;">
+  </div>
+</div>
 
 ## Requirements
 
@@ -67,10 +74,9 @@ This package includes a **Quick Start** sample you can import from the Package M
 2. Add **provider initializer** components to a bootstrap scene (order defines query order):
 
 - **Gamepad Hint Provider** — assign fallback and subtype maps as needed.
-  - **Keyboard / Mouse / Touchscreen / Joystick Hint Provider** — assign ordered `HintMapSO` arrays for each device category you support.
+    - **Keyboard / Mouse / Touchscreen / Joystick Hint Provider** — assign ordered `HintMapSO` arrays for each device category you support.
 
 1. Add UI or world display components and wire **Player Input** plus the **action name** (and **binding index** if the action has multiple bindings).
-
 
 | Component            | Use case                                                                                 |
 | -------------------- | ---------------------------------------------------------------------------------------- |
@@ -78,5 +84,3 @@ This package includes a **Quick Start** sample you can import from the Package M
 | `HintSpriteRenderer` | World-space / 2D `SpriteRenderer`                                                        |
 | `HintComposite`      | Multiple bindings (e.g. value-type action, vector2) via pooled child `HintImage` prefabs |
 | `HintTMPText`        | TMP text: device-appropriate sprite asset + `<action=...>` replacement                   |
-
-

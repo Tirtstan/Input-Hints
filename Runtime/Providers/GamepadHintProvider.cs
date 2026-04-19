@@ -54,11 +54,7 @@ namespace InputHints.Providers
             return false;
         }
 
-        public bool TryGetHint(
-            IReadOnlyList<InputDevice> devices,
-            string controlPath,
-            out Sprite sprite
-        )
+        public bool TryGetHint(IReadOnlyList<InputDevice> devices, string controlPath, out Sprite sprite)
         {
             sprite = null;
 
@@ -81,10 +77,7 @@ namespace InputHints.Providers
             return false;
         }
 
-        public bool TryGetTMPSpriteAsset(
-            IReadOnlyList<InputDevice> devices,
-            out TMP_SpriteAsset spriteAsset
-        )
+        public bool TryGetTMPSpriteAsset(IReadOnlyList<InputDevice> devices, out TMP_SpriteAsset spriteAsset)
         {
             spriteAsset = null;
 
@@ -102,11 +95,7 @@ namespace InputHints.Providers
             return false;
         }
 
-        public bool TryGetTMPName(
-            IReadOnlyList<InputDevice> devices,
-            string controlPath,
-            out string tmpName
-        )
+        public bool TryGetTMPName(IReadOnlyList<InputDevice> devices, string controlPath, out string tmpName)
         {
             tmpName = null;
 

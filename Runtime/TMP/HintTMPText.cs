@@ -143,40 +143,19 @@ namespace InputHints.TMP
 
                         string resolvedTag = placeholder; // fallback
 
-                        InputAction action = PlayerInput.actions?.FindAction(
-                            actionName,
-                            throwIfNotFound: false
-                        );
+                        InputAction action = PlayerInput.actions.FindAction(actionName, throwIfNotFound: false);
                         if (action != null)
                         {
-                            string scheme = Application.isPlaying
-                                ? PlayerInput.currentControlScheme
-                                : null;
+                            string scheme = Application.isPlaying ? PlayerInput.currentControlScheme : null;
 
                             lock (pathBuffer)
                             {
-                                if (
-                                    !InputLayoutPathUtility.TryGetActionBindingPaths(
-                                        action,
-                                        scheme,
-                                        pathBuffer
-                                    )
-                                )
-                                {
-                                    InputLayoutPathUtility.TryGetActionBindingPaths(
-                                        action,
-                                        null,
-                                        pathBuffer
-                                    );
-                                }
+                                if (!InputLayoutPathUtility.TryGetActionBindingPaths(action, scheme, pathBuffer))
+                                    InputLayoutPathUtility.TryGetActionBindingPaths(action, null, pathBuffer);
 
                                 if (
                                     pathBuffer.Count > 0
-                                    && HintManager.TryGetTMPName(
-                                        devices,
-                                        pathBuffer[0],
-                                        out string tmpName
-                                    )
+                                    && HintManager.TryGetTMPName(devices, pathBuffer[0], out string tmpName)
                                 )
                                 {
                                     resolvedTag = $"<sprite name={tmpName}>";

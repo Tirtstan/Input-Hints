@@ -55,11 +55,7 @@ namespace InputHints
         /// <param name="controlScheme">Control scheme for mask filtering.</param>
         /// <param name="results">Effective paths of detected bindings.</param>
         /// <returns>True if any binding paths were found.</returns>
-        public static bool TryGetActionBindingPaths(
-            InputAction action,
-            string controlScheme,
-            List<string> results
-        )
+        public static bool TryGetActionBindingPaths(InputAction action, string controlScheme, List<string> results)
         {
             results.Clear();
 

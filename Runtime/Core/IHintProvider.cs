@@ -22,11 +22,7 @@ namespace InputHints
         /// <param name="devices">Currently active devices.</param>
         /// <param name="controlPath">Full input layout path, e.g. "&lt;Gamepad&gt;/buttonSouth".</param>
         /// <param name="sprite">The resolved hint sprite, if found.</param>
-        public bool TryGetHint(
-            IReadOnlyList<InputDevice> devices,
-            string controlPath,
-            out Sprite sprite
-        );
+        public bool TryGetHint(IReadOnlyList<InputDevice> devices, string controlPath, out Sprite sprite);
 
         /// <summary>
         /// Tries to get the TMP Sprite Asset for the current device.
@@ -34,10 +30,7 @@ namespace InputHints
         /// </summary>
         /// <param name="devices">Currently active devices.</param>
         /// <param name="spriteAsset">The resolved TMP Sprite Asset, if found.</param>
-        public bool TryGetTMPSpriteAsset(
-            IReadOnlyList<InputDevice> devices,
-            out TMP_SpriteAsset spriteAsset
-        );
+        public bool TryGetTMPSpriteAsset(IReadOnlyList<InputDevice> devices, out TMP_SpriteAsset spriteAsset);
 
         /// <summary>
         /// Tries to get a TMP sprite name for the given control path.
@@ -45,10 +38,6 @@ namespace InputHints
         /// <param name="devices">Currently active devices.</param>
         /// <param name="controlPath">Full input layout path.</param>
         /// <param name="tmpName">The resolved TMP sprite name, if found.</param>
-        public bool TryGetTMPName(
-            IReadOnlyList<InputDevice> devices,
-            string controlPath,
-            out string tmpName
-        );
+        public bool TryGetTMPName(IReadOnlyList<InputDevice> devices, string controlPath, out string tmpName);
     }
 }
