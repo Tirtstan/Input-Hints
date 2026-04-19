@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3548092208573513597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5509201053536287855}
+  - component: {fileID: 5067446618936030667}
+  - component: {fileID: 6759132275766205593}
+  - component: {fileID: 5544025040963962602}
+  - component: {fileID: 5012902554879633073}
+  m_Layer: 0
+  m_Name: InputHintProviders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5509201053536287855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3548092208573513597}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5067446618936030667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3548092208573513597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a438f22cfe546b43b3e7a5f18221a1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: tirt.input-hints::InputHints.Providers.KeyboardHintProviderInitializer
+  hintMaps:
+  - {fileID: 11400000, guid: 949e23dc83e62594e8202e88d9c338fa, type: 2}
+  - {fileID: 11400000, guid: 4781baecd7e8a624c9b40fe0f8f8685a, type: 2}
+  - {fileID: 11400000, guid: e495f03979ecef242a813f632bf9e5d0, type: 2}
+  - {fileID: 11400000, guid: b7910c0ea5ecf804c9fda61f7a6ca136, type: 2}
+--- !u!114 &6759132275766205593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3548092208573513597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1cc52957576e74db97967991b45bbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: tirt.input-hints::InputHints.Providers.GamepadHintProviderInitializer
+  fallbackMap: {fileID: 11400000, guid: 0806fc7e154340640b1b9805c1711abc, type: 2}
+  xboxMap: {fileID: 11400000, guid: 0806fc7e154340640b1b9805c1711abc, type: 2}
+  playstationMap: {fileID: 11400000, guid: de48a9a2109eaa6429733c7380a3d000, type: 2}
+  switchProMap: {fileID: 11400000, guid: 2f71d11af92877e41a2a4bcb8d0d7e0f, type: 2}
+  steamDeckMap: {fileID: 11400000, guid: a43bb3d5a610eec45895d12f7853a283, type: 2}
+  steamControllerMap: {fileID: 11400000, guid: 773f7c25a0b0f254c9b23d382ffef625, type: 2}
+--- !u!114 &5544025040963962602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3548092208573513597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74820aef977f2e849a2d85b7c50203f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: tirt.input-hints::InputHints.Providers.JoystickHintProviderInitializer
+  hintMaps:
+  - {fileID: 11400000, guid: dc9e3e0bc2db05047959dc8894b4bb7d, type: 2}
+--- !u!114 &5012902554879633073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3548092208573513597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8c50eb3d649ced488ad01ec0a258349, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: tirt.input-hints::InputHints.Providers.MouseHintProviderInitializer
+  hintMaps:
+  - {fileID: 11400000, guid: c97e81833fbb3c849948de5e27d78d5b, type: 2}

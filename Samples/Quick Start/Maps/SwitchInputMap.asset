@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6fbfc92cfe80f945a67c9ed86593b5f, type: 3}
+  m_Name: SwitchInputMap
+  m_EditorClassIdentifier: tirt.input-hints::InputHints.HintMapSO
+  entries:
+  - ControlPath: buttonSouth
+    Glyph: {fileID: -1227341948, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: buttonEast
+    Glyph: {fileID: -1586866607, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: buttonWest
+    Glyph: {fileID: 751854834, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: buttonNorth
+    Glyph: {fileID: 1223538593, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: leftShoulder
+    Glyph: {fileID: -916415346, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: rightShoulder
+    Glyph: {fileID: 1190721499, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: leftTrigger
+    Glyph: {fileID: -1653678252, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: rightTrigger
+    Glyph: {fileID: -1569464705, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: start
+    Glyph: {fileID: -518274380, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: select
+    Glyph: {fileID: 274850721, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: leftStickPress
+    Glyph: {fileID: -1924508271, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: rightStickPress
+    Glyph: {fileID: -172744505, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: dpad
+    Glyph: {fileID: 638121352, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: dpad/up
+    Glyph: {fileID: 2052264864, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: dpad/down
+    Glyph: {fileID: -1374881808, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: dpad/left
+    Glyph: {fileID: -393769181, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: dpad/right
+    Glyph: {fileID: -616302311, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: leftStick
+    Glyph: {fileID: -928668273, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: leftStick/up
+    Glyph: {fileID: 2003520302, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: leftStick/down
+    Glyph: {fileID: 1210714896, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: leftStick/left
+    Glyph: {fileID: -1395507801, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: leftStick/right
+    Glyph: {fileID: 209287816, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: rightStick
+    Glyph: {fileID: 874826705, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: rightStick/up
+    Glyph: {fileID: -1643130382, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: rightStick/down
+    Glyph: {fileID: -337090701, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: rightStick/left
+    Glyph: {fileID: 2103434706, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  - ControlPath: rightStick/right
+    Glyph: {fileID: 430101915, guid: e27cd93689e13384c897e340aa46c059, type: 3}
+    TMPSpriteName: 
+  tmpSpriteAsset: {fileID: 11400000, guid: 20e280272d3d55b4fbc163b3b65ae01a, type: 2}

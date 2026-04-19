@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6fbfc92cfe80f945a67c9ed86593b5f, type: 3}
+  m_Name: KeyboardAlphabetInputMap
+  m_EditorClassIdentifier: tirt.input-hints::InputHints.HintMapSO
+  entries:
+  - ControlPath: a
+    Glyph: {fileID: 1863875961, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: b
+    Glyph: {fileID: 184232216, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: c
+    Glyph: {fileID: 1496805517, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: d
+    Glyph: {fileID: -409492227, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: e
+    Glyph: {fileID: -1763810558, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: f
+    Glyph: {fileID: 2088792615, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: g
+    Glyph: {fileID: -603198584, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: h
+    Glyph: {fileID: 444680672, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: i
+    Glyph: {fileID: -228805754, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: j
+    Glyph: {fileID: -1458273140, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: k
+    Glyph: {fileID: 456804901, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: l
+    Glyph: {fileID: -1181205956, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: m
+    Glyph: {fileID: 1666122896, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: n
+    Glyph: {fileID: 969814905, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: o
+    Glyph: {fileID: 383780774, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: p
+    Glyph: {fileID: 346053638, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: q
+    Glyph: {fileID: 1489684662, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: r
+    Glyph: {fileID: 1726131105, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: s
+    Glyph: {fileID: -13554405, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: t
+    Glyph: {fileID: -1645101500, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: u
+    Glyph: {fileID: -127453341, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: v
+    Glyph: {fileID: -882058747, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: w
+    Glyph: {fileID: 422508039, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: x
+    Glyph: {fileID: 1450320406, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: y
+    Glyph: {fileID: 1990216851, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: z
+    Glyph: {fileID: 1343242505, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  tmpSpriteAsset: {fileID: 11400000, guid: 3a8950c594fd78e42bbf705cac6147bf, type: 2}

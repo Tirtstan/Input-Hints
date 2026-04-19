@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6fbfc92cfe80f945a67c9ed86593b5f, type: 3}
+  m_Name: JoystickInputMap
+  m_EditorClassIdentifier: tirt.input-hints::InputHints.HintMapSO
+  entries:
+  - ControlPath: trigger
+    Glyph: {fileID: 1987513268, guid: d4c6f037b4af04a18908f41a6881f961, type: 3}
+    TMPSpriteName: 
+  - ControlPath: stick
+    Glyph: {fileID: -1230346486, guid: d4c6f037b4af04a18908f41a6881f961, type: 3}
+    TMPSpriteName: 
+  - ControlPath: stick/up
+    Glyph: {fileID: 777341329, guid: d4c6f037b4af04a18908f41a6881f961, type: 3}
+    TMPSpriteName: 
+  - ControlPath: stick/down
+    Glyph: {fileID: 1587662602, guid: d4c6f037b4af04a18908f41a6881f961, type: 3}
+    TMPSpriteName: 
+  - ControlPath: stick/left
+    Glyph: {fileID: 566884388, guid: d4c6f037b4af04a18908f41a6881f961, type: 3}
+    TMPSpriteName: 
+  - ControlPath: stick/right
+    Glyph: {fileID: 892082922, guid: d4c6f037b4af04a18908f41a6881f961, type: 3}
+    TMPSpriteName: 
+  tmpSpriteAsset: {fileID: 11400000, guid: 01315ff0f5771f04facd61d307f3010e, type: 2}

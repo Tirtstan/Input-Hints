@@ -1,29 +1,21 @@
 {
     "name": "com.tirt.input-hints",
-    "version": "1.0.2",
     "displayName": "Input Hints",
-    "description": "A base package that provides a set of tools to manage input hints in Unity.",
-    "unity": "2019.4",
-    "unityRelease": "0f1",
-    "documentationUrl": "https://github.com/Tirtstan/Input-Hints/blob/main/README.md",
-    "changelogUrl": "https://github.com/Tirtstan/Input-Hints/releases/latest",
-    "licensesUrl": "https://github.com/Tirtstan/Input-Hints/blob/main/LICENSE.md",
-    "keywords": [
-        "ui",
-        "hints",
-        "input",
-        "interact",
-        "interaction"
-    ],
+    "version": "2.0.0",
+    "unity": "2021.3",
+    "description": "A package that provides a set of tools to display input hints in Unity.",
     "author": {
         "name": "Tirt",
         "url": "https://github.com/Tirtstan"
     },
+    "documentationUrl": "README.md",
+    "changelogUrl": "CHANGELOG.md",
+    "licensesUrl": "LICENSE.md",
     "samples": [
         {
-            "displayName": "Examples",
-            "description": "Contains examples for how to use the Input Hints package.",
-            "path": "Samples/Examples"
+            "displayName": "Quick Start",
+            "description": "Contains the resources (sprites, input maps) to get you started quickly.",
+            "path": "Samples/Quick Start"
         }
     ]
 }

@@ -1,0 +1,20 @@
+{
+    "name": "tirt.input-hints.Editor",
+    "rootNamespace": "InputHints.Editor",
+    "references": [
+        "Unity.InputSystem",
+        "Unity.TextMeshPro",
+        "tirt.input-hints"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6fbfc92cfe80f945a67c9ed86593b5f, type: 3}
+  m_Name: KeyboardFunctionsInputMap
+  m_EditorClassIdentifier: tirt.input-hints::InputHints.HintMapSO
+  entries:
+  - ControlPath: f1
+    Glyph: {fileID: -1702570460, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: f2
+    Glyph: {fileID: -2048083588, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: f3
+    Glyph: {fileID: 1086045236, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: f4
+    Glyph: {fileID: -1454061622, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: f5
+    Glyph: {fileID: 1853362027, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: f6
+    Glyph: {fileID: -1204088600, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: f7
+    Glyph: {fileID: -1686064541, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: f8
+    Glyph: {fileID: 1482938318, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: f9
+    Glyph: {fileID: 1010590640, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: f10
+    Glyph: {fileID: 802798982, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: f11
+    Glyph: {fileID: 599987439, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: f12
+    Glyph: {fileID: -1761739119, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  tmpSpriteAsset: {fileID: 11400000, guid: 3a8950c594fd78e42bbf705cac6147bf, type: 2}

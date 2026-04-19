@@ -2,12 +2,15 @@
     "name": "tirt.input-hints",
     "rootNamespace": "InputHints",
     "references": [
+        "Unity.InputSystem",
         "Unity.TextMeshPro",
-        "Unity.InputSystem"
+        "UnityEngine.UI"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [],

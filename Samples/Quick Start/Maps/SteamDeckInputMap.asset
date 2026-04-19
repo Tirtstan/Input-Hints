@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6fbfc92cfe80f945a67c9ed86593b5f, type: 3}
+  m_Name: SteamDeckInputMap
+  m_EditorClassIdentifier: tirt.input-hints::InputHints.HintMapSO
+  entries:
+  - ControlPath: buttonSouth
+    Glyph: {fileID: 161539830, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: buttonEast
+    Glyph: {fileID: 477597472, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: buttonWest
+    Glyph: {fileID: -398511790, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: buttonNorth
+    Glyph: {fileID: -1761198948, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: leftShoulder
+    Glyph: {fileID: -1805157070, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: rightShoulder
+    Glyph: {fileID: 1298390702, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: leftTrigger
+    Glyph: {fileID: -544834513, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: rightTrigger
+    Glyph: {fileID: -398022978, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: start
+    Glyph: {fileID: -590582674, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: select
+    Glyph: {fileID: 763039312, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: leftStickPress
+    Glyph: {fileID: -465901734, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: rightStickPress
+    Glyph: {fileID: 489269677, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: dpad
+    Glyph: {fileID: 822269534, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: dpad/up
+    Glyph: {fileID: -1948501664, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: dpad/down
+    Glyph: {fileID: -1259109668, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: dpad/left
+    Glyph: {fileID: 1460812593, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: dpad/right
+    Glyph: {fileID: -1238951750, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: leftStick
+    Glyph: {fileID: -838810324, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: leftStick/up
+    Glyph: {fileID: 1627816120, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: leftStick/down
+    Glyph: {fileID: -766134807, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: leftStick/left
+    Glyph: {fileID: -1940236286, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: leftStick/right
+    Glyph: {fileID: 925931576, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: rightStick
+    Glyph: {fileID: -12675167, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: rightStick/up
+    Glyph: {fileID: 944499010, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: rightStick/down
+    Glyph: {fileID: 642423638, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: rightStick/left
+    Glyph: {fileID: -1550894442, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  - ControlPath: rightStick/right
+    Glyph: {fileID: 58866129, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    TMPSpriteName: 
+  tmpSpriteAsset: {fileID: 11400000, guid: 08a16e924773b9c46bee190e432ee639, type: 2}
