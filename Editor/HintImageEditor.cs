@@ -14,9 +14,8 @@ namespace InputHints.Editor
     [CustomEditor(typeof(HintImage)), CanEditMultipleObjects]
     public class HintImageEditor : UnityEditor.Editor
     {
-        private static readonly List<int> PendingLayoutHintInstanceIds = new();
-        private static readonly EditorApplication.CallbackFunction FlushPendingLayouts =
-            FlushPendingHintLayouts;
+        private static readonly HashSet<HintImage> PendingLayoutHints = new();
+        private static readonly EditorApplication.CallbackFunction FlushPendingLayouts = FlushPendingHintLayouts;
 
         public override void OnInspectorGUI()
         {
@@ -43,9 +42,7 @@ namespace InputHints.Editor
             if (enableLayout.boolValue)
             {
                 EditorGUI.indentLevel++;
-                EditorGUILayout.PropertyField(
-                    serializedObject.FindProperty("LayoutElementPriority")
-                );
+                EditorGUILayout.PropertyField(serializedObject.FindProperty("LayoutElementPriority"));
                 EditorGUILayout.PropertyField(serializedObject.FindProperty("LayoutElementSize"));
                 EditorGUI.indentLevel--;
             }
@@ -58,10 +55,7 @@ namespace InputHints.Editor
             foreach (Object t in targets)
             {
                 HintImage hintImage = (HintImage)t;
-                if (
-                    hintImage.PlayerInput != null
-                    && !ValidateNotificationBehavior(hintImage.PlayerInput)
-                )
+                if (hintImage.PlayerInput != null && !ValidateNotificationBehavior(hintImage.PlayerInput))
                 {
                     hasError = true;
                     break;
@@ -91,9 +85,7 @@ namespace InputHints.Editor
                 if (t is not HintImage hint || !hint)
                     continue;
 
-                int id = hint.GetInstanceID();
-                if (!PendingLayoutHintInstanceIds.Contains(id))
-                    PendingLayoutHintInstanceIds.Add(id);
+                PendingLayoutHints.Add(hint);
             }
 
             EditorApplication.delayCall -= FlushPendingLayouts;
@@ -104,13 +96,9 @@ namespace InputHints.Editor
         {
             EditorApplication.delayCall -= FlushPendingLayouts;
 
-            for (int i = 0; i < PendingLayoutHintInstanceIds.Count; i++)
+            foreach (HintImage hint in PendingLayoutHints)
             {
-                int id = PendingLayoutHintInstanceIds[i];
-                if (EditorUtility.InstanceIDToObject(id) is not HintImage hint)
-                    continue;
-
-                if (!hint.isActiveAndEnabled)
+                if (!hint || !hint.isActiveAndEnabled)
                     continue;
 
                 if (hint.transform is not RectTransform rect)
@@ -119,7 +107,7 @@ namespace InputHints.Editor
                 LayoutRebuilder.MarkLayoutForRebuild(rect);
             }
 
-            PendingLayoutHintInstanceIds.Clear();
+            PendingLayoutHints.Clear();
         }
     }
 }

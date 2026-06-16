@@ -1,6 +1,8 @@
 # Input Hints
 
-A lightweight, sprite-based input hint system for **Unity's Input System and UGUI**. Automatically swaps controller prompts (keyboard, mouse, gamepads including Xbox, PlayStation, Switch, Steam Deck, and Steam Controller) based on the active device, with layout-agnostic lookups and parent-path fallback. _Inspired by **[Input Glyphs](https://github.com/eviltwo/InputGlyphs)** by eviltwo_.
+A lightweight, sprite-based input hint system for **Unity's Input System and UGUI.** Automatically swaps controller prompts (keyboard, mouse, gamepads including Xbox, PlayStation, Switch, Steam Deck, and Steam Controller) based on the active device, with layout-agnostic lookups and parent-path fallback. _Inspired by **[Input Glyphs](https://github.com/eviltwo/InputGlyphs)** by eviltwo_.
+
+[**Installation**](#installation) | [**Quick Start**](#quick-start) | [**Features & Components**](#features--components)
 
 <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:stretch;">
   <div style="flex:1 1 280px; max-width:49%;">
@@ -11,24 +13,32 @@ A lightweight, sprite-based input hint system for **Unity's Input System and UGU
   </div>
 </div>
 
-## Requirements
+## Features & Components
 
-- **Unity** 2021.3+
-- **Packages** (add via Package Manager if needed): **[Input System](https://docs.unity3d.com/Packages/com.unity.inputsystem@latest), TextMeshPro, Unity UI (UGUI)**.
+- **Hint maps** — `HintMapSO` maps control paths to sprites (and optional TMP sprite names).
+- **Providers** — Register keyboard, mouse, gamepad (PlayStation, XBOX, Switch, Steam Deck, Steam Controller), touchscreen, or joystick maps via initializer components.
+- **Display** — `HintImage` (UGUI), `HintSpriteRenderer` (world space), `HintComposite` (multi-binding, pooled children).
+- **TextMeshPro** — `HintTMPText` swaps the device sprite asset and replaces `<action="ActionName">` tags with `<sprite>` markup.
+- **Scriptable** — Inspector fields are public; set or read them from code at runtime. Call `RefreshHints()` on display components, `UpdateHints()` / `SetText()` on `HintTMPText`, or use `HintManager` directly for resolution.
 
----
+| Component             | Use           | Main properties                                           |
+| --------------------- | ------------- | --------------------------------------------------------- |
+| `HintMapSO`           | Asset         | Entries (path, glyph, TMP name), TMP Sprite Asset         |
+| `HintImage`           | UGUI          | Player Input, Action Name, Binding Index, Image           |
+| `HintSpriteRenderer`  | World / 2D    | Player Input, Action Name, Binding Index, Sprite Renderer |
+| `HintComposite`       | Multi-binding | Player Input, Action Name, Child Prefab, Container        |
+| `HintTMPText`         | TMP text      | Target Text, Player Input, Input Action Names             |
+| Provider initializers | Bootstrap     | Hint Map(s) per device type                               |
 
-## Features
+TMP example: `Press <action="Jump"> to jump.`
 
-- **Sprite-first** — `HintMapSO` stores control path → sprite entries for fast resolution through registered providers.
-- **TextMeshPro** — Each hint map can reference a `TMP_SpriteAsset`. `HintTMPText` applies the correct asset for the active device and can replace `<action=ActionName>` tags in your copy with resolved `<sprite>` markup at runtime.
-- **Device-aware gamepads** — `GamepadHintProvider` picks maps by detected subtype (Xbox, DualShock, Switch, Steam Deck, Steam Controller, or fallback).
-- **Composites** — `HintComposite` pools `HintImage` children for multi-binding actions (e.g. WASD) under a layout container.
-- **Optional providers** — Separate initializers for keyboard, mouse, touchscreen, and joystick so you only register what you ship.
+> `PlayerInput` notification behavior must be **Invoke Unity Events** or **Invoke C# Events** for automatic device-change updates.
 
 ---
 
 ## Installation
+
+**Requirements:** Unity 2021.3+ and **[Input System](https://docs.unity3d.com/Packages/com.unity.inputsystem@latest), TextMeshPro, Unity UI (UGUI)** (add via Package Manager if needed).
 
 ### Via Unity Package Manager (Git URL)
 
@@ -40,10 +50,12 @@ A lightweight, sprite-based input hint system for **Unity's Input System and UGU
 https://github.com/Tirtstan/Input-Hints.git
 ```
 
-To pin a version, append a tag:
+> ^ will always mirror latest release (`main` branch).
+
+To install a specific version, append a tag:
 
 ```console
-https://github.com/Tirtstan/Input-Hints.git#v2.0.0
+https://github.com/Tirtstan/Input-Hints.git#v2.0.1
 ```
 
 ### Via `manifest.json`
@@ -60,7 +72,7 @@ Add to `Packages/manifest.json`:
 
 ---
 
-## Quick start
+## Quick Start
 
 ### Sample (recommended)
 
@@ -71,16 +83,11 @@ This package includes a **Quick Start** sample you can import from the Package M
 ### From Scratch
 
 1. Create one or more **Hint Map** assets (**Assets > Create > Input Hints > Hint Map**). For each entry, set the control path (e.g. `buttonSouth`, `a`, `space`) and assign sprites (and optional TMP sprite names). If you import the **Quick Start** sample (below), you can skip this step to start.
-2. Add **provider initializer** components to a bootstrap scene (order defines query order):
 
-- **Gamepad Hint Provider** — assign fallback and subtype maps as needed.
+2. Add **provider initializer** components to a bootstrap scene (order defines query order):
+    - **Gamepad Hint Provider** — assign fallback and subtype maps as needed.
     - **Keyboard / Mouse / Touchscreen / Joystick Hint Provider** — assign ordered `HintMapSO` arrays for each device category you support.
 
-1. Add UI or world display components and wire **Player Input** plus the **action name** (and **binding index** if the action has multiple bindings).
+3. Add UI or world display components and wire **Player Input** plus the **action name** (and **binding index** if the action has multiple bindings).
 
-| Component            | Use case                                                                                 |
-| -------------------- | ---------------------------------------------------------------------------------------- |
-| `HintImage`          | UGUI `Image` hints (`ILayoutElement` optional)                                           |
-| `HintSpriteRenderer` | World-space / 2D `SpriteRenderer`                                                        |
-| `HintComposite`      | Multiple bindings (e.g. value-type action, vector2) via pooled child `HintImage` prefabs |
-| `HintTMPText`        | TMP text: device-appropriate sprite asset + `<action=...>` replacement                   |
+---
