@@ -40,10 +40,7 @@ namespace InputHints.Editor
                 EditorGUILayout.BeginHorizontal();
 
                 // Fixed width for alignment
-                EditorGUILayout.LabelField(
-                    actionName,
-                    GUILayout.Width(EditorGUIUtility.labelWidth)
-                );
+                EditorGUILayout.LabelField(actionName, GUILayout.Width(EditorGUIUtility.labelWidth));
 
                 string tagValue = $"<action={actionName}>";
 

@@ -53,21 +53,13 @@ namespace InputHints.Editor
             EditorGUILayout.LabelField("Summary", EditorStyles.boldLabel);
             EditorGUILayout.LabelField($"  Total entries: {total}");
             EditorGUILayout.LabelField($"  With TMP names: {hasTMPName}");
-            EditorGUILayout.LabelField(
-                $"  TMP Atlas assigned: {(hintMap.TMPSpriteAsset != null ? "Yes" : "No")}"
-            );
+            EditorGUILayout.LabelField($"  TMP Atlas assigned: {(hintMap.TMPSpriteAsset != null ? "Yes" : "No")}");
 
             if (missingPath > 0)
-                EditorGUILayout.HelpBox(
-                    $"{missingPath} entries are missing a ControlPath.",
-                    MessageType.Warning
-                );
+                EditorGUILayout.HelpBox($"{missingPath} entries are missing a ControlPath.", MessageType.Warning);
 
             if (missingSprite > 0)
-                EditorGUILayout.HelpBox(
-                    $"{missingSprite} entries are missing a Glyph sprite.",
-                    MessageType.Warning
-                );
+                EditorGUILayout.HelpBox($"{missingSprite} entries are missing a Glyph sprite.", MessageType.Warning);
         }
     }
 }
