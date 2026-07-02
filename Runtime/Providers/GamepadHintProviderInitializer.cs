@@ -7,6 +7,7 @@ namespace InputHints.Providers
     /// to different <see cref="HintMapSO"/> assets.
     /// </summary>
     [AddComponentMenu("Input Hints/Providers/Gamepad Hint Provider")]
+    [DefaultExecutionOrder(-1000)]
     public class GamepadHintProviderInitializer : MonoBehaviour
     {
         [Header("Fallback")]
@@ -37,9 +38,22 @@ namespace InputHints.Providers
 
         private GamepadHintProvider provider;
 
-        private void Awake()
+        private void Awake() => RegisterProvider();
+
+        private void OnEnable() => RegisterProvider();
+
+        private void OnDestroy()
         {
-            provider = new GamepadHintProvider(
+            if (provider == null)
+                return;
+
+            HintManager.UnregisterProvider(provider);
+            provider = null;
+        }
+
+        private void RegisterProvider()
+        {
+            provider ??= new GamepadHintProvider(
                 fallbackMap,
                 xboxMap,
                 playstationMap,
@@ -48,15 +62,6 @@ namespace InputHints.Providers
                 steamControllerMap
             );
             HintManager.RegisterProvider(provider);
-        }
-
-        private void OnDestroy()
-        {
-            if (provider != null)
-            {
-                HintManager.UnregisterProvider(provider);
-                provider = null;
-            }
         }
     }
 }

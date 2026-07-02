@@ -7,6 +7,7 @@ namespace InputHints.Providers
     /// MonoBehaviour initializer that creates and registers a <see cref="DeviceHintProvider{T}"/>
     /// for a specific device type. Drag <see cref="HintMapSO"/> assets into the inspector.
     /// </summary>
+    [DefaultExecutionOrder(-1000)]
     public class HintProviderInitializer<T> : MonoBehaviour
         where T : InputDevice
     {
@@ -17,23 +18,28 @@ namespace InputHints.Providers
 
         private DeviceHintProvider<T> provider;
 
-        private void Awake()
+        private void Awake() => RegisterProvider();
+
+        private void OnEnable() => RegisterProvider();
+
+        private void OnDestroy()
+        {
+            if (provider == null)
+                return;
+
+            HintManager.UnregisterProvider(provider);
+            provider = null;
+        }
+
+        private void RegisterProvider()
         {
             if (hintMaps == null || hintMaps.Length == 0)
                 return;
 
-            provider = new DeviceHintProvider<T>();
+            provider ??= new DeviceHintProvider<T>();
+            provider.HintMaps.Clear();
             provider.HintMaps.AddRange(hintMaps);
             HintManager.RegisterProvider(provider);
-        }
-
-        private void OnDestroy()
-        {
-            if (provider != null)
-            {
-                HintManager.UnregisterProvider(provider);
-                provider = null;
-            }
         }
     }
 }

@@ -1,7 +1,7 @@
 {
     "name": "com.tirt.input-hints",
     "displayName": "Input Hints",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "unity": "2021.3",
     "description": "A package that provides a set of tools to display input hints in Unity.",
     "author": {
