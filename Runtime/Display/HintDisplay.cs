@@ -37,18 +37,23 @@ namespace InputHints.Display
         private float pollTimer;
         private readonly List<string> pathBuffer = new();
         private bool isSubscribed;
+        private bool pendingHintRefresh;
 
         protected virtual void OnEnable()
         {
             pollTimer = 0f;
             lastPlayerInput = null;
+            pendingHintRefresh = false;
+            HintManager.ProvidersChanged += OnHintProvidersChanged;
             CheckPlayerInput();
         }
 
         protected virtual void OnDisable()
         {
+            HintManager.ProvidersChanged -= OnHintProvidersChanged;
             UnsubscribeFromEvents();
             lastPlayerInput = null;
+            pendingHintRefresh = false;
         }
 
         protected virtual void Update()
@@ -82,6 +87,7 @@ namespace InputHints.Display
         {
             if (PlayerInput == null || !PlayerInput.isActiveAndEnabled)
             {
+                pendingHintRefresh = false;
                 ClearHint();
                 return;
             }
@@ -97,14 +103,14 @@ namespace InputHints.Display
             if (action == null)
                 return;
 
-            if (InputLayoutPathUtility.TryGetActionBindingPaths(action, PlayerInput.currentControlScheme, pathBuffer))
+            if (!InputLayoutPathUtility.TryGetActionBindingPaths(action, PlayerInput.currentControlScheme, pathBuffer))
             {
-                OnBindingsResolved(devices, pathBuffer);
-            }
-            else
-            {
+                pendingHintRefresh = false;
                 ClearHint();
+                return;
             }
+
+            OnBindingsResolved(devices, pathBuffer);
         }
 
         /// <summary>
@@ -122,9 +128,16 @@ namespace InputHints.Display
                 int index = Mathf.Min(BindingIndex, bindingPaths.Count - 1);
                 if (HintManager.TryGetHint(devices, bindingPaths[index], out Sprite sprite))
                 {
+                    pendingHintRefresh = false;
                     ApplyHint(sprite, bindingPaths[index]);
                     return;
                 }
+
+                pendingHintRefresh = true;
+            }
+            else
+            {
+                pendingHintRefresh = false;
             }
 
             ClearHint();
@@ -150,7 +163,19 @@ namespace InputHints.Display
                 }
 
                 lastPlayerInput = PlayerInput;
+                return;
             }
+
+            if (pendingHintRefresh && PlayerInput != null)
+                RefreshHints();
+        }
+
+        private void OnHintProvidersChanged()
+        {
+            if (!isActiveAndEnabled || !pendingHintRefresh)
+                return;
+
+            RefreshHints();
         }
 
         private void SubscribeToEvents(PlayerInput playerInput)

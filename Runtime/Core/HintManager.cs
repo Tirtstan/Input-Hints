@@ -15,12 +15,20 @@ namespace InputHints
         private static readonly List<IHintProvider> providers = new();
 
         /// <summary>
+        /// Raised whenever a provider is registered or unregistered.
+        /// </summary>
+        public static event System.Action ProvidersChanged;
+
+        /// <summary>
         /// Register a hint provider. Providers are queried in registration order.
         /// </summary>
         public static void RegisterProvider(IHintProvider provider)
         {
-            if (provider != null && !providers.Contains(provider))
-                providers.Add(provider);
+            if (provider == null || providers.Contains(provider))
+                return;
+
+            providers.Add(provider);
+            ProvidersChanged?.Invoke();
         }
 
         /// <summary>
@@ -28,8 +36,10 @@ namespace InputHints
         /// </summary>
         public static void UnregisterProvider(IHintProvider provider)
         {
-            if (provider != null)
-                providers.Remove(provider);
+            if (provider == null || !providers.Remove(provider))
+                return;
+
+            ProvidersChanged?.Invoke();
         }
 
         /// <summary>
@@ -103,7 +113,11 @@ namespace InputHints
         /// </summary>
         public static void ClearProviders()
         {
+            if (providers.Count == 0)
+                return;
+
             providers.Clear();
+            ProvidersChanged?.Invoke();
         }
     }
 }
