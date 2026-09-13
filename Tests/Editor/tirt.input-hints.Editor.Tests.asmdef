@@ -1,0 +1,22 @@
+{
+    "name": "tirt.input-hints.Editor.Tests",
+    "rootNamespace": "InputHints.Tests",
+    "references": [
+        "tirt.input-hints",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

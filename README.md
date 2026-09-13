@@ -17,7 +17,7 @@ A lightweight, sprite-based input hint system for **Unity's Input System and UGU
 
 - **Hint maps** — `HintMapSO` maps control paths to sprites (and optional TMP sprite names).
 - **Providers** — Register keyboard, mouse, gamepad (PlayStation, XBOX, Switch, Steam Deck, Steam Controller), touchscreen, or joystick maps via initializer components.
-- **Display** — `HintImage` (UGUI), `HintSpriteRenderer` (world space), `HintComposite` (multi-binding, pooled children).
+- **Display** — `HintImage` (UGUI), `HintSpriteRenderer` (world space), `HintComposite` (action-driven composites), and `HintRow` (caller-supplied paths with all-or-nothing fallback).
 - **TextMeshPro** — `HintTMPText` swaps the device sprite asset and replaces `<action="ActionName">` tags with `<sprite>` markup.
 - **Scriptable** — Inspector fields are public; set or read them from code at runtime. Call `RefreshHints()` on display components, `UpdateHints()` / `SetText()` on `HintTMPText`, or use `HintManager` directly for resolution.
 
@@ -27,6 +27,7 @@ A lightweight, sprite-based input hint system for **Unity's Input System and UGU
 | `HintImage`           | UGUI          | Player Input, Action Name, Binding Index, Image           |
 | `HintSpriteRenderer`  | World / 2D    | Player Input, Action Name, Binding Index, Sprite Renderer |
 | `HintComposite`       | Multi-binding | Player Input, Action Name, Child Prefab, Container        |
+| `HintRow`             | Path row      | Control Paths, Devices, Child Prefab, Container           |
 | `HintTMPText`         | TMP text      | Target Text, Player Input, Input Action Names             |
 | Provider initializers | Bootstrap     | Hint Map(s) per device type                               |
 
@@ -55,7 +56,7 @@ https://github.com/Tirtstan/Input-Hints.git
 To install a specific version, append a tag:
 
 ```console
-https://github.com/Tirtstan/Input-Hints.git#v2.0.1
+https://github.com/Tirtstan/Input-Hints.git#v2.1.0
 ```
 
 ### Via `manifest.json`
@@ -89,5 +90,7 @@ This package includes a **Quick Start** sample you can import from the Package M
     - **Keyboard / Mouse / Touchscreen / Joystick Hint Provider** — assign ordered `HintMapSO` arrays for each device category you support.
 
 3. Add UI or world display components and wire **Player Input** plus the **action name** (and **binding index** if the action has multiple bindings).
+
+For UI that already resolves its own binding paths, call `HintRow.TryShow(devices, paths)`. If no matching device is connected, the row uses each path's device layout for unbound resolution. Use full paths such as `<Keyboard>/space` or `<Gamepad>/buttonSouth` so providers cannot select a different device family.
 
 ---

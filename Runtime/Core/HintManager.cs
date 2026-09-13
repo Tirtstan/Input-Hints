@@ -64,6 +64,31 @@ namespace InputHints
         }
 
         /// <summary>
+        /// Tries to get a hint sprite for the given control path without requiring
+        /// a connected device. Providers use the path's device layout to decide
+        /// whether they own it. Parent-path fallback preserves that layout.
+        /// </summary>
+        public static bool TryGetHintUnbound(string controlPath, out Sprite sprite)
+        {
+            sprite = null;
+
+            if (string.IsNullOrEmpty(controlPath))
+                return false;
+
+            for (int i = 0; i < providers.Count; i++)
+            {
+                if (providers[i] is IUnboundHintProvider unbound && unbound.TryGetHintUnbound(controlPath, out sprite))
+                    return true;
+            }
+
+            string parentPath = InputLayoutPathUtility.GetParent(controlPath);
+            if (!string.IsNullOrEmpty(parentPath))
+                return TryGetHintUnbound(parentPath, out sprite);
+
+            return false;
+        }
+
+        /// <summary>
         /// Tries to get the TMP Sprite Asset for the current active devices.
         /// Returns the asset from the first provider that can handle the devices.
         /// </summary>

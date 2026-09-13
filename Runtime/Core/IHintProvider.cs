@@ -40,4 +40,19 @@ namespace InputHints
         /// <param name="tmpName">The resolved TMP sprite name, if found.</param>
         public bool TryGetTMPName(IReadOnlyList<InputDevice> devices, string controlPath, out string tmpName);
     }
+
+    /// <summary>
+    /// Optional capability for providers that can resolve hints from a full
+    /// device-rooted control path without a connected device instance.
+    /// Used by menus that display glyphs for schemes with no hardware attached.
+    /// </summary>
+    public interface IUnboundHintProvider
+    {
+        /// <summary>
+        /// Tries to get a hint sprite for the given device-rooted control path.
+        /// </summary>
+        /// <param name="controlPath">Full input layout path, e.g. "&lt;Gamepad&gt;/buttonSouth".</param>
+        /// <param name="sprite">The resolved hint sprite, if found.</param>
+        public bool TryGetHintUnbound(string controlPath, out Sprite sprite);
+    }
 }

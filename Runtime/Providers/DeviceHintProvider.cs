@@ -9,7 +9,7 @@ namespace InputHints.Providers
     /// Generic hint provider for a specific <see cref="InputDevice"/> type.
     /// Looks up control paths against one or more <see cref="HintMapSO"/> assets.
     /// </summary>
-    public class DeviceHintProvider<T> : IHintProvider
+    public class DeviceHintProvider<T> : IHintProvider, IUnboundHintProvider
         where T : InputDevice
     {
         public readonly List<HintMapSO> HintMaps = new();
@@ -35,6 +35,30 @@ namespace InputHints.Providers
 
             string localPath = ResolveLocalPath(supportedDevice, controlPath);
 
+            for (int i = 0; i < HintMaps.Count; i++)
+            {
+                if (HintMaps[i] != null && HintMaps[i].TryGetEntry(localPath, out HintMapSO.HintEntry entry))
+                {
+                    sprite = entry.Glyph;
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        public bool TryGetHintUnbound(string controlPath, out Sprite sprite)
+        {
+            sprite = null;
+
+            string deviceLayout = InputControlPath.TryGetDeviceLayout(controlPath);
+            if (
+                string.IsNullOrEmpty(deviceLayout)
+                || !InputSystem.IsFirstLayoutBasedOnSecond(deviceLayout, typeof(T).Name)
+            )
+                return false;
+
+            string localPath = InputLayoutPathUtility.RemoveRoot(controlPath);
             for (int i = 0; i < HintMaps.Count; i++)
             {
                 if (HintMaps[i] != null && HintMaps[i].TryGetEntry(localPath, out HintMapSO.HintEntry entry))
