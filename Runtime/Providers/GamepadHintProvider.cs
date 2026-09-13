@@ -14,7 +14,7 @@ namespace InputHints.Providers
     /// Gamepad-specific hint provider that selects the correct <see cref="HintMapSO"/>
     /// based on the detected controller subtype (Xbox, PlayStation, Switch, Steam, or fallback).
     /// </summary>
-    public class GamepadHintProvider : IHintProvider
+    public class GamepadHintProvider : IHintProvider, IUnboundHintProvider
     {
         private readonly HintMapSO fallbackMap;
         private readonly HintMapSO xboxMap;
@@ -67,6 +67,37 @@ namespace InputHints.Providers
                 return false;
 
             string localPath = ResolveLocalPath(gamepad, controlPath);
+
+            if (map.TryGetEntry(localPath, out HintMapSO.HintEntry entry))
+            {
+                sprite = entry.Glyph;
+                return true;
+            }
+
+            return false;
+        }
+
+        public bool TryGetHintUnbound(string controlPath, out Sprite sprite)
+        {
+            sprite = null;
+
+            string deviceLayout = InputControlPath.TryGetDeviceLayout(controlPath);
+            if (
+                string.IsNullOrEmpty(deviceLayout)
+                || !InputSystem.IsFirstLayoutBasedOnSecond(deviceLayout, nameof(Gamepad))
+            )
+                return false;
+
+            HintMapSO map = GetMapForLayout(deviceLayout);
+            return TryGetFromMap(map, InputLayoutPathUtility.RemoveRoot(controlPath), out sprite);
+        }
+
+        private static bool TryGetFromMap(HintMapSO map, string localPath, out Sprite sprite)
+        {
+            sprite = null;
+
+            if (map == null)
+                return false;
 
             if (map.TryGetEntry(localPath, out HintMapSO.HintEntry entry))
             {
@@ -150,6 +181,28 @@ namespace InputHints.Providers
             };
 
             return map != null ? map : fallbackMap;
+        }
+
+        private HintMapSO GetMapForLayout(string deviceLayout)
+        {
+            if (deviceLayout.Contains("SteamDeck", System.StringComparison.OrdinalIgnoreCase))
+                return steamDeckMap != null ? steamDeckMap : fallbackMap;
+
+            if (deviceLayout.Contains("SteamController", System.StringComparison.OrdinalIgnoreCase))
+                return steamControllerMap != null ? steamControllerMap : fallbackMap;
+
+            if (InputSystem.IsFirstLayoutBasedOnSecond(deviceLayout, nameof(XInputController)))
+                return xboxMap != null ? xboxMap : fallbackMap;
+
+            if (InputSystem.IsFirstLayoutBasedOnSecond(deviceLayout, nameof(DualShockGamepad)))
+                return playstationMap != null ? playstationMap : fallbackMap;
+
+#if UNITY_EDITOR || UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX || UNITY_WSA
+            if (InputSystem.IsFirstLayoutBasedOnSecond(deviceLayout, nameof(SwitchProControllerHID)))
+                return switchProMap != null ? switchProMap : fallbackMap;
+#endif
+
+            return fallbackMap;
         }
 
         private static string ResolveLocalPath(Gamepad device, string controlPath)
