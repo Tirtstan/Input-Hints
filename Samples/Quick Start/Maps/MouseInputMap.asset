@@ -13,34 +13,43 @@ MonoBehaviour:
   m_Name: MouseInputMap
   m_EditorClassIdentifier: tirt.input-hints::InputHints.HintMapSO
   entries:
+  - ControlPath: press
+    Glyph: {fileID: 444274294, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
   - ControlPath: leftButton
-    Glyph: {fileID: -1245887727, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    Glyph: {fileID: 444274294, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
     TMPSpriteName: 
   - ControlPath: rightButton
-    Glyph: {fileID: 1006275871, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    Glyph: {fileID: 1737294317, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
     TMPSpriteName: 
   - ControlPath: middleButton
-    Glyph: {fileID: 870440944, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    Glyph: {fileID: -1245887727, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: forwardButton
+    Glyph: {fileID: -1448206209, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    TMPSpriteName: 
+  - ControlPath: backButton
+    Glyph: {fileID: 84375049, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
     TMPSpriteName: 
   - ControlPath: scroll
-    Glyph: {fileID: -533322380, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    Glyph: {fileID: 870440944, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
     TMPSpriteName: 
   - ControlPath: scroll/y
-    Glyph: {fileID: -533322380, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    Glyph: {fileID: 870440944, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
     TMPSpriteName: 
   - ControlPath: scroll/x
-    Glyph: {fileID: -533322380, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    Glyph: {fileID: 1990216851, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
     TMPSpriteName: 
   - ControlPath: scroll/up
-    Glyph: {fileID: -1775648845, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    Glyph: {fileID: 1006275871, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
     TMPSpriteName: 
   - ControlPath: scroll/down
-    Glyph: {fileID: -596586831, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    Glyph: {fileID: 1989593940, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
     TMPSpriteName: 
   - ControlPath: position
-    Glyph: {fileID: 480539116, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    Glyph: {fileID: 1585089172, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
     TMPSpriteName: 
   - ControlPath: delta
-    Glyph: {fileID: 480539116, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    Glyph: {fileID: 1585089172, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
     TMPSpriteName: 
   tmpSpriteAsset: {fileID: 11400000, guid: 3a8950c594fd78e42bbf705cac6147bf, type: 2}

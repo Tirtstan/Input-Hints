@@ -44,10 +44,10 @@ MonoBehaviour:
     Glyph: {fileID: 763039312, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
     TMPSpriteName: 
   - ControlPath: leftStickPress
-    Glyph: {fileID: -465901734, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    Glyph: {fileID: -967561198, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
     TMPSpriteName: 
   - ControlPath: rightStickPress
-    Glyph: {fileID: 489269677, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
+    Glyph: {fileID: 1641370259, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}
     TMPSpriteName: 
   - ControlPath: dpad
     Glyph: {fileID: 822269534, guid: 1503e75f012c1436da9dec16a83ec7de, type: 3}

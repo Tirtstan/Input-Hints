@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6759132275766205593}
   - component: {fileID: 5544025040963962602}
   - component: {fileID: 5012902554879633073}
+  - component: {fileID: 7810382909804716034}
   m_Layer: 0
   m_Name: InputHintProviders
   m_TagString: Untagged
@@ -98,3 +99,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: tirt.input-hints::InputHints.Providers.MouseHintProviderInitializer
   hintMaps:
   - {fileID: 11400000, guid: c97e81833fbb3c849948de5e27d78d5b, type: 2}
+--- !u!114 &7810382909804716034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3548092208573513597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df216c31031463b4ba3ced7f9077b3f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: tirt.input-hints::InputHints.Providers.TouchscreenHintProviderInitializer
+  hintMaps:
+  - {fileID: 11400000, guid: 96b13f632b092a24b86cef5106bf741a, type: 2}

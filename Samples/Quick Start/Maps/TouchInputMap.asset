@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6fbfc92cfe80f945a67c9ed86593b5f, type: 3}
+  m_Name: TouchInputMap
+  m_EditorClassIdentifier: tirt.input-hints::InputHints.HintMapSO
+  entries:
+  - ControlPath: primaryTouch
+    Glyph: {fileID: 122543532, guid: 68676e678efa54cc2bc2cc9de6c25b8c, type: 3}
+    TMPSpriteName: 
+  - ControlPath: primaryTouch/tap
+    Glyph: {fileID: 429068493, guid: 68676e678efa54cc2bc2cc9de6c25b8c, type: 3}
+    TMPSpriteName: 
+  - ControlPath: primaryTouch/press
+    Glyph: {fileID: 429068493, guid: 68676e678efa54cc2bc2cc9de6c25b8c, type: 3}
+    TMPSpriteName: 
+  - ControlPath: primaryTouch/position
+    Glyph: {fileID: 1974971370, guid: 68676e678efa54cc2bc2cc9de6c25b8c, type: 3}
+    TMPSpriteName: 
+  - ControlPath: primaryTouch/delta
+    Glyph: {fileID: 1974971370, guid: 68676e678efa54cc2bc2cc9de6c25b8c, type: 3}
+    TMPSpriteName: 
+  - ControlPath: touch
+    Glyph: {fileID: 122543532, guid: 68676e678efa54cc2bc2cc9de6c25b8c, type: 3}
+    TMPSpriteName: 
+  - ControlPath: touch/tap
+    Glyph: {fileID: 429068493, guid: 68676e678efa54cc2bc2cc9de6c25b8c, type: 3}
+    TMPSpriteName: 
+  - ControlPath: touch/press
+    Glyph: {fileID: 429068493, guid: 68676e678efa54cc2bc2cc9de6c25b8c, type: 3}
+    TMPSpriteName: 
+  - ControlPath: touch/position
+    Glyph: {fileID: 1974971370, guid: 68676e678efa54cc2bc2cc9de6c25b8c, type: 3}
+    TMPSpriteName: 
+  - ControlPath: touch/delta
+    Glyph: {fileID: 1974971370, guid: 68676e678efa54cc2bc2cc9de6c25b8c, type: 3}
+    TMPSpriteName: 
+  - ControlPath: position
+    Glyph: {fileID: 1974971370, guid: 68676e678efa54cc2bc2cc9de6c25b8c, type: 3}
+    TMPSpriteName: 
+  - ControlPath: delta
+    Glyph: {fileID: 1974971370, guid: 68676e678efa54cc2bc2cc9de6c25b8c, type: 3}
+    TMPSpriteName: 
+  - ControlPath: press
+    Glyph: {fileID: 429068493, guid: 68676e678efa54cc2bc2cc9de6c25b8c, type: 3}
+    TMPSpriteName: 
+  tmpSpriteAsset: {fileID: 11400000, guid: 5f6aecb9cbba21b4abefc047c6053d48, type: 2}
