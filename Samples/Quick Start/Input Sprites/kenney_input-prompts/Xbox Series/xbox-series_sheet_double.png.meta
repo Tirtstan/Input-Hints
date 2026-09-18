@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e27cd93689e13384c897e340aa46c059
+guid: 2a942e2204281344a8f01aa870b3223a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,51 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1280
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b5b93935190f984d87aa7e28f7d6ac2
-      internalID: -172985735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_1
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 1280
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8bda1987fa356504f926d23b9f9fc5ec
-      internalID: -1177782659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_12
+      name: xbox-series_sheet_double_0
       rect:
         serializedVersion: 2
         x: 0
@@ -162,21 +118,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 440cd0527012750419fb0c9bfdfda269
-      internalID: 874826705
+      spriteID: d53caf44dcec0f74186b0c200e2f3366
+      internalID: 969591489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_13
+      name: xbox-series_sheet_double_1
       rect:
         serializedVersion: 2
         x: 128
@@ -184,21 +140,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5ac321c4274f3542bc926a9f6e37e57
-      internalID: -337090701
+      spriteID: 54f421466c72f774c97b3a407b096c41
+      internalID: 896745580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_14
+      name: xbox-series_sheet_double_2
       rect:
         serializedVersion: 2
         x: 256
@@ -206,21 +162,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 924e3212e0b54bb4aaf5a882decf9f6e
-      internalID: 1920608796
+      spriteID: 685e7003c9a69da46a13d254d5a5c3a0
+      internalID: -515054783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_15
+      name: xbox-series_sheet_double_3
       rect:
         serializedVersion: 2
         x: 384
@@ -228,21 +184,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93abfd712efbcb14481b877410de8139
-      internalID: 2103434706
+      spriteID: 680b1c82b15cab1489811759a8bb3826
+      internalID: -1503596481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_16
+      name: xbox-series_sheet_double_4
       rect:
         serializedVersion: 2
         x: 512
@@ -250,21 +206,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 285132996c69d794da053b7afba9506c
-      internalID: -1501304526
+      spriteID: ddbcada15c3dc5d4d9cfca57b303e328
+      internalID: 52178470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_17
+      name: xbox-series_sheet_double_5
       rect:
         serializedVersion: 2
         x: 640
@@ -272,21 +228,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8150e2733384dda4cb991074c0ea2486
-      internalID: 430101915
+      spriteID: d1be2c5bf91eb9f43a88ea6ab9ccee6a
+      internalID: 2054135346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_18
+      name: xbox-series_sheet_double_6
       rect:
         serializedVersion: 2
         x: 768
@@ -294,21 +250,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 986217a4bb5590c45b615c8959ba5431
-      internalID: -1643130382
+      spriteID: 9f9a453966175ec4ab0afe3b02181c26
+      internalID: -853753831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_19
+      name: xbox-series_sheet_double_7
       rect:
         serializedVersion: 2
         x: 896
@@ -316,21 +272,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 240f36ca9dd4ae14abe70eba972b1668
-      internalID: 14501120
+      spriteID: 4eac735898e2f184ca117885606f2901
+      internalID: 88965591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_20
+      name: xbox-series_sheet_double_8
       rect:
         serializedVersion: 2
         x: 1024
@@ -338,87 +294,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e204bf7ab8eaff8479d1149f7c09f18a
-      internalID: -1924508271
+      spriteID: 1fec816aed9516f46bb9adc4f2798d1d
+      internalID: -685329198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_21
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 1152
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f723dc402fce0b42946130e96738c3b
-      internalID: -172744505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_22
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 1152
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01a3b930226644c4da51ff35be292e0a
-      internalID: -357660976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_23
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 1152
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cac9a7cbaf1f6ce43b04ec1f173e0522
-      internalID: -653600024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_24
+      name: xbox-series_sheet_double_10
       rect:
         serializedVersion: 2
         x: 0
@@ -426,21 +316,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b441c3d0280587f4e9cbc68e86341f36
-      internalID: -895115549
+      spriteID: 474d2b15430cf8a4594d1baf55c609b6
+      internalID: -294068076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_25
+      name: xbox-series_sheet_double_11
       rect:
         serializedVersion: 2
         x: 128
@@ -448,21 +338,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdc2dbb04233f974badbba8a8894d005
-      internalID: 1361451980
+      spriteID: d8791db22a19b9441824ea8f5f5138eb
+      internalID: 1352356547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_26
+      name: xbox-series_sheet_double_12
       rect:
         serializedVersion: 2
         x: 256
@@ -470,21 +360,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1546cebe9cf05f4e9b423e3dbbd2936
-      internalID: -1351286919
+      spriteID: af5856a4ce6679c4fafd59f972a70477
+      internalID: -1096360718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_27
+      name: xbox-series_sheet_double_13
       rect:
         serializedVersion: 2
         x: 384
@@ -492,21 +382,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b830e6ba4c2aad34a8068c9df79f6e73
-      internalID: 1860831486
+      spriteID: b1f3325637fd4c447ad1cc6f6aa2ab85
+      internalID: -1731604615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_28
+      name: xbox-series_sheet_double_14
       rect:
         serializedVersion: 2
         x: 512
@@ -514,21 +404,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbcf97f6a6becbc48acd44781c8d5414
-      internalID: -928668273
+      spriteID: 66c84cd567795794c88560e235737456
+      internalID: -2021631945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_29
+      name: xbox-series_sheet_double_15
       rect:
         serializedVersion: 2
         x: 640
@@ -536,21 +426,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16b3afda1e170974b9704976b48b6bbe
-      internalID: 1210714896
+      spriteID: 092fe16e3b93b754db9e3cfb7c57b05b
+      internalID: -419245899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_30
+      name: xbox-series_sheet_double_16
       rect:
         serializedVersion: 2
         x: 768
@@ -558,21 +448,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59b1557d56a62d64a8e755ac23c65680
-      internalID: -1637258332
+      spriteID: f202444b8c737c44b8db4e7692eeca51
+      internalID: -1286057475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_31
+      name: xbox-series_sheet_double_17
       rect:
         serializedVersion: 2
         x: 896
@@ -580,21 +470,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b496d209f34968f449577d5537391e96
-      internalID: -1395507801
+      spriteID: 76a324486be01d04ba2f8083a53ae17b
+      internalID: 352926144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_32
+      name: xbox-series_sheet_double_18
       rect:
         serializedVersion: 2
         x: 1024
@@ -602,21 +492,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d28feca309ead6c418d64794899e64ac
-      internalID: -381943508
+      spriteID: 23594587094e865469f417a9a518b0c3
+      internalID: -717094482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_33
+      name: xbox-series_sheet_double_19
       rect:
         serializedVersion: 2
         x: 1152
@@ -624,65 +514,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd8b7a6dbb6b09e4abf434742c4fec59
-      internalID: 209287816
+      spriteID: 658f88465fd86bb4b9637512fe46d99f
+      internalID: -1680056629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_34
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 1024
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 313859f9e6a20154e9b9732913341513
-      internalID: 2003520302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_35
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 1024
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb2d66674a5e9f04c808bac3e72eac30
-      internalID: -471666976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_36
+      name: xbox-series_sheet_double_20
       rect:
         serializedVersion: 2
         x: 0
@@ -690,21 +536,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd5f8762119789f4cb1c05c9f5571f2b
-      internalID: -1416639749
+      spriteID: cecb8fd54e5b2e849bd6a58a07e0f781
+      internalID: -1700181379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_37
+      name: xbox-series_sheet_double_21
       rect:
         serializedVersion: 2
         x: 128
@@ -712,21 +558,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce5ffa35579b4ad4aaaac2c2e1d131bf
-      internalID: 991897549
+      spriteID: 0751979ef667e2443b703bfa52d7d691
+      internalID: 1684447173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_38
+      name: xbox-series_sheet_double_22
       rect:
         serializedVersion: 2
         x: 256
@@ -734,21 +580,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9da4adca125d0794b92c7345f791b8c5
-      internalID: -355894916
+      spriteID: 5682c5d62ca91364a9fd2d98dce2a8f0
+      internalID: 1691623988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_39
+      name: xbox-series_sheet_double_23
       rect:
         serializedVersion: 2
         x: 384
@@ -756,21 +602,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c8b6ce373df1c24f9406db77f46d205
-      internalID: -143104789
+      spriteID: a30428a28c586d44893ec3c647bf507d
+      internalID: -823367402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_40
+      name: xbox-series_sheet_double_24
       rect:
         serializedVersion: 2
         x: 512
@@ -778,21 +624,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8a80bb758b375b4683540a7231f1a24
-      internalID: -1599805178
+      spriteID: 752f955cbb72e0a47b3398d74410915f
+      internalID: 918628287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_41
+      name: xbox-series_sheet_double_25
       rect:
         serializedVersion: 2
         x: 640
@@ -800,21 +646,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 021f7b8374113f94d9a5a481ea17f342
-      internalID: -2036442688
+      spriteID: add0027d679790f449e3474272564b7f
+      internalID: 463679655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_42
+      name: xbox-series_sheet_double_26
       rect:
         serializedVersion: 2
         x: 768
@@ -822,21 +668,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fc78902f2ce3df48a48fe8f802c8200
-      internalID: -151754710
+      spriteID: 422b112258a81af489b8c1672457cec9
+      internalID: 1232328579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_43
+      name: xbox-series_sheet_double_27
       rect:
         serializedVersion: 2
         x: 896
@@ -844,21 +690,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 003362bbea2747344abf7b5594754d1b
-      internalID: 905041539
+      spriteID: 5a9bc2ca828bd8d47bb5bb341ec8e1b9
+      internalID: -1595549701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_44
+      name: xbox-series_sheet_double_28
       rect:
         serializedVersion: 2
         x: 1024
@@ -866,21 +712,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f9c9dcf1c3881a48b80d34fbc86a27a
-      internalID: 1320372292
+      spriteID: 78715f07236f97d43977d815e4a60031
+      internalID: -602224192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_45
+      name: xbox-series_sheet_double_29
       rect:
         serializedVersion: 2
         x: 1152
@@ -888,65 +734,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 151f1a7daf77f28459b9f84151c6f677
-      internalID: -1121168829
+      spriteID: fd8929bf6ca966c4ba8e1e7571256851
+      internalID: 370747109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_46
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 896
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 282044c51773bc1489e8f1039394f10f
-      internalID: 1086483506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_47
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 896
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ac4f8030ac47624c9e938a0b92b74e2
-      internalID: 225863686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_48
+      name: xbox-series_sheet_double_30
       rect:
         serializedVersion: 2
         x: 0
@@ -954,21 +756,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38323dd0b1d6cf243be2bd44c54c2dc8
-      internalID: -1661318545
+      spriteID: 9ceff8dc5e3b2de4693a421f635f2705
+      internalID: 114194936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_49
+      name: xbox-series_sheet_double_31
       rect:
         serializedVersion: 2
         x: 128
@@ -976,21 +778,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c124cd3daa15904196a0542bed6077c
-      internalID: -1206738178
+      spriteID: 2a5f38a687e72bc439fab6a0b7fdeaec
+      internalID: 1487205838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_50
+      name: xbox-series_sheet_double_32
       rect:
         serializedVersion: 2
         x: 256
@@ -998,21 +800,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a07d19a843478134ca26f7e6d7051f9f
-      internalID: -1323910121
+      spriteID: 7b5ce54901bb2e44586beec40ebdc8f9
+      internalID: -2102682702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_51
+      name: xbox-series_sheet_double_33
       rect:
         serializedVersion: 2
         x: 384
@@ -1020,21 +822,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 086b2976ebab7194c89bdf060310d17b
-      internalID: 1236810642
+      spriteID: b3690b14260987a4ea8e671e0a669fdb
+      internalID: 786677067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_52
+      name: xbox-series_sheet_double_34
       rect:
         serializedVersion: 2
         x: 512
@@ -1042,21 +844,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7cf4692b274ad84cb83a9959a352797
-      internalID: 1965590385
+      spriteID: 0dbe694117613574fb8b4581987c09e2
+      internalID: 602662307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_53
+      name: xbox-series_sheet_double_35
       rect:
         serializedVersion: 2
         x: 640
@@ -1064,21 +866,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7482dbb271c8a74f89765dddafc6000
-      internalID: 925983778
+      spriteID: ddf7e1f441330ea47823011e2af458d1
+      internalID: -470772524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_54
+      name: xbox-series_sheet_double_36
       rect:
         serializedVersion: 2
         x: 768
@@ -1086,21 +888,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c673d62d91bf8843bf93102141cc306
-      internalID: 1243737746
+      spriteID: 30270795ad8c998489bed40f092fa1e1
+      internalID: -2009003427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_55
+      name: xbox-series_sheet_double_37
       rect:
         serializedVersion: 2
         x: 896
@@ -1108,21 +910,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e581c81e9b820c04ba186a36b3b09ad9
-      internalID: 1024455491
+      spriteID: b0f64b726b59a3343939a0dfcd3c565f
+      internalID: 1208151330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_56
+      name: xbox-series_sheet_double_38
       rect:
         serializedVersion: 2
         x: 1024
@@ -1130,21 +932,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7208a020f6d4856468ea1955d371af5b
-      internalID: 93291687
+      spriteID: d42c6a237801dc244be672fc54dce17e
+      internalID: -476395905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_57
+      name: xbox-series_sheet_double_39
       rect:
         serializedVersion: 2
         x: 1152
@@ -1152,65 +954,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 668e868de07aa2c41a775f0b4153e04a
-      internalID: 1098630041
+      spriteID: 1ae9401c50809db40b0432cdc1ff37d4
+      internalID: 1694639812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_58
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 768
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e2725a82795b0c4d884f5fdeeba224c
-      internalID: -148808753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_59
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 768
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8b32e452ed2f964fafbb6211968a5c5
-      internalID: 537545854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_60
+      name: xbox-series_sheet_double_40
       rect:
         serializedVersion: 2
         x: 0
@@ -1218,21 +976,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 735526c716ba0764395fbf7a89608891
-      internalID: -1465375771
+      spriteID: b9a140b299766d94ea46da4f5817b06c
+      internalID: 1099061669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_61
+      name: xbox-series_sheet_double_41
       rect:
         serializedVersion: 2
         x: 128
@@ -1240,21 +998,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 881b4ef519a2e5540a8e86862e4ae32f
-      internalID: -393769181
+      spriteID: 021fa232118bc2f43bd8963cff5a6ca5
+      internalID: 474168713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_62
+      name: xbox-series_sheet_double_42
       rect:
         serializedVersion: 2
         x: 256
@@ -1262,21 +1020,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbfc798900cf3b54aaaf3dc2879ad7d5
-      internalID: 1339673697
+      spriteID: 13017dfcf93f4fa488da08620d4aa738
+      internalID: -346726886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_63
+      name: xbox-series_sheet_double_43
       rect:
         serializedVersion: 2
         x: 384
@@ -1284,21 +1042,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42fa01dab04eb4b4a922ec762694fd62
-      internalID: 438215511
+      spriteID: e70e6a8a8b3b15347a632af9eded6c47
+      internalID: 766098483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_64
+      name: xbox-series_sheet_double_44
       rect:
         serializedVersion: 2
         x: 512
@@ -1306,21 +1064,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ad0993baa5980d42906448a113c654a
-      internalID: -616302311
+      spriteID: bdda3b0f521d6894dbe0f35abeb81b64
+      internalID: -1958078488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_65
+      name: xbox-series_sheet_double_45
       rect:
         serializedVersion: 2
         x: 640
@@ -1328,21 +1086,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d53305f3caf2b147bcaec5927ac9782
-      internalID: -1147176681
+      spriteID: 76907a48e0b356e40ab875219013d857
+      internalID: 1570667348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_66
+      name: xbox-series_sheet_double_46
       rect:
         serializedVersion: 2
         x: 768
@@ -1350,21 +1108,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f5ca0df54d056747ad647e3bbaf5b9c
-      internalID: 2052264864
+      spriteID: 82cf5d6b1ebb2184ba41bd9322b995b4
+      internalID: -923318076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_67
+      name: xbox-series_sheet_double_47
       rect:
         serializedVersion: 2
         x: 896
@@ -1372,21 +1130,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2096d1af5ed18b949835a4ff3765351c
-      internalID: -1403551551
+      spriteID: 0538490d7b44de840bf78e93514c5e6e
+      internalID: -1233253798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_68
+      name: xbox-series_sheet_double_48
       rect:
         serializedVersion: 2
         x: 1024
@@ -1394,21 +1152,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 928b5a7cedeceeb4e86ab5a7176451fd
-      internalID: -420300740
+      spriteID: 94bf9e82f2078b34fab2902514d1303d
+      internalID: -447548904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_69
+      name: xbox-series_sheet_double_49
       rect:
         serializedVersion: 2
         x: 1152
@@ -1416,65 +1174,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 314d153322c94094ababd72c342c6465
-      internalID: -1068920404
+      spriteID: a17f00cc89a4d094a88c610b00d72bd4
+      internalID: -306108120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_70
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 640
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0be8ec12f15bf604cb1bb8bd5509eef6
-      internalID: -1907926970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_71
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 640
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed382dcdc0b30a24e969fc1f01d9caa1
-      internalID: 641377212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_72
+      name: xbox-series_sheet_double_50
       rect:
         serializedVersion: 2
         x: 0
@@ -1482,21 +1196,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8587844204bf1d4f843551200efa805
-      internalID: -618232843
+      spriteID: 7c51491b860972449a23f13d117193cc
+      internalID: 596022647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_73
+      name: xbox-series_sheet_double_51
       rect:
         serializedVersion: 2
         x: 128
@@ -1504,21 +1218,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08ab6433d8fae954dafa2cdda959a142
-      internalID: -1973712594
+      spriteID: 27fc2ad1c2f4c4146ae500a551da3904
+      internalID: -1485697155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_74
+      name: xbox-series_sheet_double_52
       rect:
         serializedVersion: 2
         x: 256
@@ -1526,21 +1240,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cebbd106c64314f47bdd3c3bf6a8ddf9
-      internalID: -2017861036
+      spriteID: 891823573a9a0a04893ac69de67d7098
+      internalID: -1446258571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_75
+      name: xbox-series_sheet_double_53
       rect:
         serializedVersion: 2
         x: 384
@@ -1548,21 +1262,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d731832ae55df5c4b8d738d30035cca5
-      internalID: -448270704
+      spriteID: a0e05829ee1594246bf9987dbd2ec27a
+      internalID: -119226471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_76
+      name: xbox-series_sheet_double_54
       rect:
         serializedVersion: 2
         x: 512
@@ -1570,21 +1284,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 691b5c3925da5c541baa20e31164351c
-      internalID: -2142395496
+      spriteID: 3c7f3c53e24b8004ea705acd87c439b4
+      internalID: 492807463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_77
+      name: xbox-series_sheet_double_55
       rect:
         serializedVersion: 2
         x: 640
@@ -1592,21 +1306,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62594d37b65a03243b988d8276a71e95
-      internalID: -1376519635
+      spriteID: 27e1efde08d3e8345aa2a2ecede38585
+      internalID: 1522790501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_78
+      name: xbox-series_sheet_double_56
       rect:
         serializedVersion: 2
         x: 768
@@ -1614,21 +1328,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c39c6cc8f2d28bb4aad4e7809c78f411
-      internalID: -685030336
+      spriteID: 83b10b11ac6181f4a8207448de9b93f7
+      internalID: 930729229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_79
+      name: xbox-series_sheet_double_57
       rect:
         serializedVersion: 2
         x: 896
@@ -1636,21 +1350,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fe38833dd34339409295f965539707b
-      internalID: 638121352
+      spriteID: 40e331cf78d30c347a4570e6ec640f90
+      internalID: 1400405694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_80
+      name: xbox-series_sheet_double_58
       rect:
         serializedVersion: 2
         x: 1024
@@ -1658,21 +1372,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78087fda6abed0846b4ee265b0fc1034
-      internalID: 759183272
+      spriteID: 11d04216880571d479aea10e09ddb9aa
+      internalID: 2101952414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_81
+      name: xbox-series_sheet_double_59
       rect:
         serializedVersion: 2
         x: 1152
@@ -1680,65 +1394,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92c4608d0d0726545987f33e47868edf
-      internalID: -1374881808
+      spriteID: fb8d29fa56df7f045a9d631e8d4d4b47
+      internalID: -1924066073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_82
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 512
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3726a32dc0709ae4cbe9e71c3e2eff23
-      internalID: 762598436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_83
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 512
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a477bf5cd421294db2d9ddffcf35137
-      internalID: -712851289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_84
+      name: xbox-series_sheet_double_60
       rect:
         serializedVersion: 2
         x: 0
@@ -1746,21 +1416,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c795d66eb0491940ad7fed8e1f5cb0d
-      internalID: -1569464705
+      spriteID: f947dc72bf275324abd31ad021c5ae4a
+      internalID: -575264936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_85
+      name: xbox-series_sheet_double_61
       rect:
         serializedVersion: 2
         x: 128
@@ -1768,21 +1438,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db689613b0b64414cadf099783f58fd5
-      internalID: -619209290
+      spriteID: cfb35941a2a193948b1636fef93dd592
+      internalID: 843617153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_86
+      name: xbox-series_sheet_double_62
       rect:
         serializedVersion: 2
         x: 256
@@ -1790,21 +1460,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0036a0a69f2421547b36a674a4af9572
-      internalID: 2025207840
+      spriteID: abda7d95fcd4c844a9cecc3f1f639372
+      internalID: 2097703638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_87
+      name: xbox-series_sheet_double_63
       rect:
         serializedVersion: 2
         x: 384
@@ -1812,21 +1482,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62f409efce18ede49b98d30d3fdf0d0e
-      internalID: 363607860
+      spriteID: a98fb700a3d0235469b6ad47b8029707
+      internalID: -109761971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_88
+      name: xbox-series_sheet_double_64
       rect:
         serializedVersion: 2
         x: 512
@@ -1834,21 +1504,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d946d7562e7db28429f4017a6aa44bee
-      internalID: -1481438641
+      spriteID: 82dcef58774cb2a499659e05719e219b
+      internalID: 145028213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_89
+      name: xbox-series_sheet_double_65
       rect:
         serializedVersion: 2
         x: 640
@@ -1856,21 +1526,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97bdf00d99b28454587a9866fabb64be
-      internalID: -1188505894
+      spriteID: 6d7bb9ea5465b534b98abc0dfa5d427a
+      internalID: 416559707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_90
+      name: xbox-series_sheet_double_66
       rect:
         serializedVersion: 2
         x: 768
@@ -1878,21 +1548,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb1f0267e4af90a47aff1b700fd05592
-      internalID: 1653545698
+      spriteID: e626360c69af369459e13a6ca99b011d
+      internalID: 1353016971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_91
+      name: xbox-series_sheet_double_67
       rect:
         serializedVersion: 2
         x: 896
@@ -1900,21 +1570,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ccc588397d62214a92007c01d7fe617
-      internalID: 874023627
+      spriteID: 5d91dec1e0217924f8eb2c2d3028d77a
+      internalID: -575775441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_92
+      name: xbox-series_sheet_double_68
       rect:
         serializedVersion: 2
         x: 1024
@@ -1922,21 +1592,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5612bd5adde2f34695d56bed037023a
-      internalID: -1009021883
+      spriteID: d74556d3e3b6ff74d9ad0948ff64f405
+      internalID: -1291671151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_93
+      name: xbox-series_sheet_double_69
       rect:
         serializedVersion: 2
         x: 1152
@@ -1944,65 +1614,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bed21d4604a1bec448767a1d586accba
-      internalID: -1955996354
+      spriteID: 142d769293250544a8f827b07810021a
+      internalID: -629504111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_94
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 384
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90c1872531302fe41b1417f908edaeb8
-      internalID: 501564819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_95
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 384
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06391046fc54fdf40a4ec91f4d83933c
-      internalID: 892977459
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_96
+      name: xbox-series_sheet_double_70
       rect:
         serializedVersion: 2
         x: 0
@@ -2010,21 +1636,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89a6aa889496cc142b99093d15cda808
-      internalID: 1680898834
+      spriteID: b041ced2d6a7344418b4f277cb040fa7
+      internalID: 1198865155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_97
+      name: xbox-series_sheet_double_71
       rect:
         serializedVersion: 2
         x: 128
@@ -2032,21 +1658,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b6c4ccc21b364842b6f64f834da6c83
-      internalID: -505346668
+      spriteID: fb78ed361246614428360bc0e7b993f7
+      internalID: -1187559114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_98
+      name: xbox-series_sheet_double_72
       rect:
         serializedVersion: 2
         x: 256
@@ -2054,21 +1680,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d96babd9f768fc4fb3a175cce5b727f
-      internalID: 2113726523
+      spriteID: 706615ab3fdfd4b4fbbdec89e52a6693
+      internalID: 2045742485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_99
+      name: xbox-series_sheet_double_73
       rect:
         serializedVersion: 2
         x: 384
@@ -2076,21 +1702,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4e63867fb2ec294ab479dee400203ee
-      internalID: 453387395
+      spriteID: 356f51d85dc1a38458bfd2a01797a4ac
+      internalID: 1435230082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_100
+      name: xbox-series_sheet_double_74
       rect:
         serializedVersion: 2
         x: 512
@@ -2098,21 +1724,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b856a714ab027f848be8a2e379a4b30e
-      internalID: 1444348642
+      spriteID: bf31c6e7073009040a2ca9629d3975c7
+      internalID: -366769506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_101
+      name: xbox-series_sheet_double_75
       rect:
         serializedVersion: 2
         x: 640
@@ -2120,21 +1746,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10ba804793c14d14792526903099a2f1
-      internalID: -1856226412
+      spriteID: 34dafb0593ee9104694f9e2a21f8af0e
+      internalID: 474917762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_102
+      name: xbox-series_sheet_double_76
       rect:
         serializedVersion: 2
         x: 768
@@ -2142,21 +1768,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e1b8cae6dd3fa84abb0e33a8d7d8ad4
-      internalID: 1223538593
+      spriteID: 2c32c4f82d5e0194aa336b3fcd85d495
+      internalID: -1105319674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_103
+      name: xbox-series_sheet_double_77
       rect:
         serializedVersion: 2
         x: 896
@@ -2164,21 +1790,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1212ec325f837c44f8a91885153de5d2
-      internalID: -2083801126
+      spriteID: 648475b3c5c01b94fb58a0078edb18cc
+      internalID: -971307655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_104
+      name: xbox-series_sheet_double_78
       rect:
         serializedVersion: 2
         x: 1024
@@ -2186,21 +1812,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf6805333d8c8d342a0813ddf8a90ff6
-      internalID: 751854834
+      spriteID: ea8bd68ac2c8f56409d7468aa60155d3
+      internalID: -1912928816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_105
+      name: xbox-series_sheet_double_79
       rect:
         serializedVersion: 2
         x: 1152
@@ -2208,65 +1834,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e688e2d52469986449013ca915683018
-      internalID: -700940735
+      spriteID: 2debf923e482d7f438f815e8daff73e9
+      internalID: -805650170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_106
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58c6a0fa2d0915e458b4bc7de9987541
-      internalID: -1653678252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_107
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67a7f4da07c6bf846abd9715b0c5bc8f
-      internalID: -991071653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_108
+      name: xbox-series_sheet_double_80
       rect:
         serializedVersion: 2
         x: 0
@@ -2274,21 +1856,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b34ccb0e70f61c24ea4f7f7d604b1cbe
-      internalID: -1994701768
+      spriteID: c2b8f64f3fea3784cbb64403eaee006d
+      internalID: 1341950877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_109
+      name: xbox-series_sheet_double_81
       rect:
         serializedVersion: 2
         x: 128
@@ -2296,21 +1878,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc417e1bc7fd1ea499cf142b4842368c
-      internalID: 774251238
+      spriteID: 85b6fdf8365bd9c44b0bc55cf97c8ee5
+      internalID: -1201144976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_110
+      name: xbox-series_sheet_double_82
       rect:
         serializedVersion: 2
         x: 256
@@ -2318,21 +1900,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef0faa5c90fabf942a2b06ef8636c44e
-      internalID: -1871980315
+      spriteID: f9b94e263b5eba44da7613990ceb0472
+      internalID: 1837767913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_111
+      name: xbox-series_sheet_double_83
       rect:
         serializedVersion: 2
         x: 384
@@ -2340,21 +1922,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71cab6e7748f6c24d84e0ddd1fb221ab
-      internalID: -1985912628
+      spriteID: 1d706aad1ad3d9348b0bc34d9ee3a4f6
+      internalID: -540055731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_112
+      name: xbox-series_sheet_double_84
       rect:
         serializedVersion: 2
         x: 512
@@ -2362,21 +1944,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b603c81c3ce2c474b92802b657357e92
-      internalID: -916415346
+      spriteID: ea1506adefd547849ac1b83efa7fb952
+      internalID: -1438827262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_113
+      name: xbox-series_sheet_double_85
       rect:
         serializedVersion: 2
         x: 640
@@ -2384,21 +1966,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 282d03979ab76d94ba56460184f96654
-      internalID: -330804540
+      spriteID: ec883a9b690cc874bbca3d6da624e24c
+      internalID: 2139490293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_114
+      name: xbox-series_sheet_double_86
       rect:
         serializedVersion: 2
         x: 768
@@ -2406,21 +1988,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44e59e7fdd50dac44b898659c0a0ceef
-      internalID: 274850721
+      spriteID: 291beb047bfeb6d4a97182a75607b9e7
+      internalID: -1365597406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_115
+      name: xbox-series_sheet_double_87
       rect:
         serializedVersion: 2
         x: 896
@@ -2428,21 +2010,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 765058c4577ca9f4d9e6446af74ec471
-      internalID: -549825520
+      spriteID: d786045deef4d164397aeb0623fae28d
+      internalID: -1611043382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_116
+      name: xbox-series_sheet_double_88
       rect:
         serializedVersion: 2
         x: 1024
@@ -2450,21 +2032,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f11abc27572d7b24eae427ee43be3309
-      internalID: -518274380
+      spriteID: 878390b3c327b744aba1b7904fa4ff3d
+      internalID: -1570039454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_117
+      name: xbox-series_sheet_double_89
       rect:
         serializedVersion: 2
         x: 1152
@@ -2472,65 +2054,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da6e89d53bee8554fad7d72ba9605943
-      internalID: -137324445
+      spriteID: 5af532c02155d1f4dbe0ab2c9c4b21ff
+      internalID: 1906469291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_118
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae4c497125203b644a07ce30f9921ce9
-      internalID: 1190721499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_119
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ca7fd79a76817b4c9ee35e1d302e374
-      internalID: 70847647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_120
+      name: xbox-series_sheet_double_90
       rect:
         serializedVersion: 2
         x: 0
@@ -2538,21 +2076,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49201a248e4896e4592a4999b75e4520
-      internalID: 2023077934
+      spriteID: 943fadb25f7bb344195e66d59ca7d6f8
+      internalID: 224614484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_121
+      name: xbox-series_sheet_double_91
       rect:
         serializedVersion: 2
         x: 128
@@ -2560,21 +2098,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 199614314a490104585f9b451bf8481a
-      internalID: -112483055
+      spriteID: 6907e0cd1d747484a8d1739956ab9e62
+      internalID: -1342986352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_122
+      name: xbox-series_sheet_double_92
       rect:
         serializedVersion: 2
         x: 256
@@ -2582,21 +2120,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0083caf8d7d42224a82c340be432c747
-      internalID: -27167751
+      spriteID: cbe3fc73c05295844b1e370511cbce9b
+      internalID: 1282124725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_123
+      name: xbox-series_sheet_double_93
       rect:
         serializedVersion: 2
         x: 384
@@ -2604,21 +2142,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a395f4979479d544f9396ec47e1a6897
-      internalID: -1094241273
+      spriteID: 934b4751198ef344390b7d39aaff234f
+      internalID: -1634628959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_124
+      name: xbox-series_sheet_double_94
       rect:
         serializedVersion: 2
         x: 512
@@ -2626,21 +2164,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 907826f72b0922144b72a23c23a6a6b0
-      internalID: -1586866607
+      spriteID: 3d36f5abb98081147b3271522984b646
+      internalID: 1972295837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_125
+      name: xbox-series_sheet_double_95
       rect:
         serializedVersion: 2
         x: 640
@@ -2648,21 +2186,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e7e4a771b19463409e0dd9efea7fc2c
-      internalID: 1483421116
+      spriteID: f52be617df5134742aae67f876f4dbb0
+      internalID: -531920509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_126
+      name: xbox-series_sheet_double_96
       rect:
         serializedVersion: 2
         x: 768
@@ -2670,21 +2208,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aeeef2d1507f5dc418e1a1356fcf26a8
-      internalID: -1227341948
+      spriteID: ee9dd887256974b44b131eb05582f263
+      internalID: 1326541205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_127
+      name: xbox-series_sheet_double_97
       rect:
         serializedVersion: 2
         x: 896
@@ -2692,21 +2230,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f5524ef2cd0c1e46aef538e99578416
-      internalID: 785870909
+      spriteID: 717b991687ca2bd4a9a75534c54456be
+      internalID: 246279957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_128
+      name: xbox-series_sheet_double_98
       rect:
         serializedVersion: 2
         x: 1024
@@ -2714,21 +2252,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: befea7da0788453488588568db1e354c
-      internalID: 229525474
+      spriteID: e7d6aa9cc45739a49b92b0ec834e5d9d
+      internalID: -447621273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_129
+      name: xbox-series_sheet_double_99
       rect:
         serializedVersion: 2
         x: 1152
@@ -2736,59 +2274,15 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ba780fda2ef7814783fb31535e7c5b5
-      internalID: 1607189306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_130
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d9d5c4d8f1eabc48a6f357e7a1317e9
-      internalID: 868842706
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nintendo-switch-2_sheet_double_131
-      rect:
-        serializedVersion: 2
-        x: 1408
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60a98d6f6740f2546836b9793599123a
-      internalID: -2133407083
+      spriteID: 95ca9e736f7cf9643973126963f85b1f
+      internalID: -289866686
       vertices: []
       indices: 
       edges: []
@@ -2797,7 +2291,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d42b028efcc881b49b6a58d22aca9887
+    spriteID: a6234ddca83e7014a9b4c851516b23c7
     internalID: 0
     vertices: []
     indices: 
@@ -2807,138 +2301,105 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nintendo-switch-2_sheet_double_0: -172985735
-      nintendo-switch-2_sheet_double_1: -1177782659
-      nintendo-switch-2_sheet_double_10: 599347338
-      nintendo-switch-2_sheet_double_100: 1444348642
-      nintendo-switch-2_sheet_double_101: -1856226412
-      nintendo-switch-2_sheet_double_102: 1223538593
-      nintendo-switch-2_sheet_double_103: -2083801126
-      nintendo-switch-2_sheet_double_104: 751854834
-      nintendo-switch-2_sheet_double_105: -700940735
-      nintendo-switch-2_sheet_double_106: -1653678252
-      nintendo-switch-2_sheet_double_107: -991071653
-      nintendo-switch-2_sheet_double_108: -1994701768
-      nintendo-switch-2_sheet_double_109: 774251238
-      nintendo-switch-2_sheet_double_11: -1543452300
-      nintendo-switch-2_sheet_double_110: -1871980315
-      nintendo-switch-2_sheet_double_111: -1985912628
-      nintendo-switch-2_sheet_double_112: -916415346
-      nintendo-switch-2_sheet_double_113: -330804540
-      nintendo-switch-2_sheet_double_114: 274850721
-      nintendo-switch-2_sheet_double_115: -549825520
-      nintendo-switch-2_sheet_double_116: -518274380
-      nintendo-switch-2_sheet_double_117: -137324445
-      nintendo-switch-2_sheet_double_118: 1190721499
-      nintendo-switch-2_sheet_double_119: 70847647
-      nintendo-switch-2_sheet_double_12: 874826705
-      nintendo-switch-2_sheet_double_120: 2023077934
-      nintendo-switch-2_sheet_double_121: -112483055
-      nintendo-switch-2_sheet_double_122: -27167751
-      nintendo-switch-2_sheet_double_123: -1094241273
-      nintendo-switch-2_sheet_double_124: -1586866607
-      nintendo-switch-2_sheet_double_125: 1483421116
-      nintendo-switch-2_sheet_double_126: -1227341948
-      nintendo-switch-2_sheet_double_127: 785870909
-      nintendo-switch-2_sheet_double_128: 229525474
-      nintendo-switch-2_sheet_double_129: 1607189306
-      nintendo-switch-2_sheet_double_13: -337090701
-      nintendo-switch-2_sheet_double_130: 868842706
-      nintendo-switch-2_sheet_double_131: -2133407083
-      nintendo-switch-2_sheet_double_14: 1920608796
-      nintendo-switch-2_sheet_double_15: 2103434706
-      nintendo-switch-2_sheet_double_16: -1501304526
-      nintendo-switch-2_sheet_double_17: 430101915
-      nintendo-switch-2_sheet_double_18: -1643130382
-      nintendo-switch-2_sheet_double_19: 14501120
-      nintendo-switch-2_sheet_double_2: 605128974
-      nintendo-switch-2_sheet_double_20: -1924508271
-      nintendo-switch-2_sheet_double_21: -172744505
-      nintendo-switch-2_sheet_double_22: -357660976
-      nintendo-switch-2_sheet_double_23: -653600024
-      nintendo-switch-2_sheet_double_24: -895115549
-      nintendo-switch-2_sheet_double_25: 1361451980
-      nintendo-switch-2_sheet_double_26: -1351286919
-      nintendo-switch-2_sheet_double_27: 1860831486
-      nintendo-switch-2_sheet_double_28: -928668273
-      nintendo-switch-2_sheet_double_29: 1210714896
-      nintendo-switch-2_sheet_double_3: 1166160843
-      nintendo-switch-2_sheet_double_30: -1637258332
-      nintendo-switch-2_sheet_double_31: -1395507801
-      nintendo-switch-2_sheet_double_32: -381943508
-      nintendo-switch-2_sheet_double_33: 209287816
-      nintendo-switch-2_sheet_double_34: 2003520302
-      nintendo-switch-2_sheet_double_35: -471666976
-      nintendo-switch-2_sheet_double_36: -1416639749
-      nintendo-switch-2_sheet_double_37: 991897549
-      nintendo-switch-2_sheet_double_38: -355894916
-      nintendo-switch-2_sheet_double_39: -143104789
-      nintendo-switch-2_sheet_double_4: -1555389294
-      nintendo-switch-2_sheet_double_40: -1599805178
-      nintendo-switch-2_sheet_double_41: -2036442688
-      nintendo-switch-2_sheet_double_42: -151754710
-      nintendo-switch-2_sheet_double_43: 905041539
-      nintendo-switch-2_sheet_double_44: 1320372292
-      nintendo-switch-2_sheet_double_45: -1121168829
-      nintendo-switch-2_sheet_double_46: 1086483506
-      nintendo-switch-2_sheet_double_47: 225863686
-      nintendo-switch-2_sheet_double_48: -1661318545
-      nintendo-switch-2_sheet_double_49: -1206738178
-      nintendo-switch-2_sheet_double_5: 525149324
-      nintendo-switch-2_sheet_double_50: -1323910121
-      nintendo-switch-2_sheet_double_51: 1236810642
-      nintendo-switch-2_sheet_double_52: 1965590385
-      nintendo-switch-2_sheet_double_53: 925983778
-      nintendo-switch-2_sheet_double_54: 1243737746
-      nintendo-switch-2_sheet_double_55: 1024455491
-      nintendo-switch-2_sheet_double_56: 93291687
-      nintendo-switch-2_sheet_double_57: 1098630041
-      nintendo-switch-2_sheet_double_58: -148808753
-      nintendo-switch-2_sheet_double_59: 537545854
-      nintendo-switch-2_sheet_double_6: 1630483849
-      nintendo-switch-2_sheet_double_60: -1465375771
-      nintendo-switch-2_sheet_double_61: -393769181
-      nintendo-switch-2_sheet_double_62: 1339673697
-      nintendo-switch-2_sheet_double_63: 438215511
-      nintendo-switch-2_sheet_double_64: -616302311
-      nintendo-switch-2_sheet_double_65: -1147176681
-      nintendo-switch-2_sheet_double_66: 2052264864
-      nintendo-switch-2_sheet_double_67: -1403551551
-      nintendo-switch-2_sheet_double_68: -420300740
-      nintendo-switch-2_sheet_double_69: -1068920404
-      nintendo-switch-2_sheet_double_7: -1955406139
-      nintendo-switch-2_sheet_double_70: -1907926970
-      nintendo-switch-2_sheet_double_71: 641377212
-      nintendo-switch-2_sheet_double_72: -618232843
-      nintendo-switch-2_sheet_double_73: -1973712594
-      nintendo-switch-2_sheet_double_74: -2017861036
-      nintendo-switch-2_sheet_double_75: -448270704
-      nintendo-switch-2_sheet_double_76: -2142395496
-      nintendo-switch-2_sheet_double_77: -1376519635
-      nintendo-switch-2_sheet_double_78: -685030336
-      nintendo-switch-2_sheet_double_79: 638121352
-      nintendo-switch-2_sheet_double_8: 1473085500
-      nintendo-switch-2_sheet_double_80: 759183272
-      nintendo-switch-2_sheet_double_81: -1374881808
-      nintendo-switch-2_sheet_double_82: 762598436
-      nintendo-switch-2_sheet_double_83: -712851289
-      nintendo-switch-2_sheet_double_84: -1569464705
-      nintendo-switch-2_sheet_double_85: -619209290
-      nintendo-switch-2_sheet_double_86: 2025207840
-      nintendo-switch-2_sheet_double_87: 363607860
-      nintendo-switch-2_sheet_double_88: -1481438641
-      nintendo-switch-2_sheet_double_89: -1188505894
-      nintendo-switch-2_sheet_double_9: 234560413
-      nintendo-switch-2_sheet_double_90: 1653545698
-      nintendo-switch-2_sheet_double_91: 874023627
-      nintendo-switch-2_sheet_double_92: -1009021883
-      nintendo-switch-2_sheet_double_93: -1955996354
-      nintendo-switch-2_sheet_double_94: 501564819
-      nintendo-switch-2_sheet_double_95: 892977459
-      nintendo-switch-2_sheet_double_96: 1680898834
-      nintendo-switch-2_sheet_double_97: -505346668
-      nintendo-switch-2_sheet_double_98: 2113726523
-      nintendo-switch-2_sheet_double_99: 453387395
+      xbox-series_sheet_double_0: 969591489
+      xbox-series_sheet_double_1: 896745580
+      xbox-series_sheet_double_10: -294068076
+      xbox-series_sheet_double_11: 1352356547
+      xbox-series_sheet_double_12: -1096360718
+      xbox-series_sheet_double_13: -1731604615
+      xbox-series_sheet_double_14: -2021631945
+      xbox-series_sheet_double_15: -419245899
+      xbox-series_sheet_double_16: -1286057475
+      xbox-series_sheet_double_17: 352926144
+      xbox-series_sheet_double_18: -717094482
+      xbox-series_sheet_double_19: -1680056629
+      xbox-series_sheet_double_2: -515054783
+      xbox-series_sheet_double_20: -1700181379
+      xbox-series_sheet_double_21: 1684447173
+      xbox-series_sheet_double_22: 1691623988
+      xbox-series_sheet_double_23: -823367402
+      xbox-series_sheet_double_24: 918628287
+      xbox-series_sheet_double_25: 463679655
+      xbox-series_sheet_double_26: 1232328579
+      xbox-series_sheet_double_27: -1595549701
+      xbox-series_sheet_double_28: -602224192
+      xbox-series_sheet_double_29: 370747109
+      xbox-series_sheet_double_3: -1503596481
+      xbox-series_sheet_double_30: 114194936
+      xbox-series_sheet_double_31: 1487205838
+      xbox-series_sheet_double_32: -2102682702
+      xbox-series_sheet_double_33: 786677067
+      xbox-series_sheet_double_34: 602662307
+      xbox-series_sheet_double_35: -470772524
+      xbox-series_sheet_double_36: -2009003427
+      xbox-series_sheet_double_37: 1208151330
+      xbox-series_sheet_double_38: -476395905
+      xbox-series_sheet_double_39: 1694639812
+      xbox-series_sheet_double_4: 52178470
+      xbox-series_sheet_double_40: 1099061669
+      xbox-series_sheet_double_41: 474168713
+      xbox-series_sheet_double_42: -346726886
+      xbox-series_sheet_double_43: 766098483
+      xbox-series_sheet_double_44: -1958078488
+      xbox-series_sheet_double_45: 1570667348
+      xbox-series_sheet_double_46: -923318076
+      xbox-series_sheet_double_47: -1233253798
+      xbox-series_sheet_double_48: -447548904
+      xbox-series_sheet_double_49: -306108120
+      xbox-series_sheet_double_5: 2054135346
+      xbox-series_sheet_double_50: 596022647
+      xbox-series_sheet_double_51: -1485697155
+      xbox-series_sheet_double_52: -1446258571
+      xbox-series_sheet_double_53: -119226471
+      xbox-series_sheet_double_54: 492807463
+      xbox-series_sheet_double_55: 1522790501
+      xbox-series_sheet_double_56: 930729229
+      xbox-series_sheet_double_57: 1400405694
+      xbox-series_sheet_double_58: 2101952414
+      xbox-series_sheet_double_59: -1924066073
+      xbox-series_sheet_double_6: -853753831
+      xbox-series_sheet_double_60: -575264936
+      xbox-series_sheet_double_61: 843617153
+      xbox-series_sheet_double_62: 2097703638
+      xbox-series_sheet_double_63: -109761971
+      xbox-series_sheet_double_64: 145028213
+      xbox-series_sheet_double_65: 416559707
+      xbox-series_sheet_double_66: 1353016971
+      xbox-series_sheet_double_67: -575775441
+      xbox-series_sheet_double_68: -1291671151
+      xbox-series_sheet_double_69: -629504111
+      xbox-series_sheet_double_7: 88965591
+      xbox-series_sheet_double_70: 1198865155
+      xbox-series_sheet_double_71: -1187559114
+      xbox-series_sheet_double_72: 2045742485
+      xbox-series_sheet_double_73: 1435230082
+      xbox-series_sheet_double_74: -366769506
+      xbox-series_sheet_double_75: 474917762
+      xbox-series_sheet_double_76: -1105319674
+      xbox-series_sheet_double_77: -971307655
+      xbox-series_sheet_double_78: -1912928816
+      xbox-series_sheet_double_79: -805650170
+      xbox-series_sheet_double_8: -685329198
+      xbox-series_sheet_double_80: 1341950877
+      xbox-series_sheet_double_81: -1201144976
+      xbox-series_sheet_double_82: 1837767913
+      xbox-series_sheet_double_83: -540055731
+      xbox-series_sheet_double_84: -1438827262
+      xbox-series_sheet_double_85: 2139490293
+      xbox-series_sheet_double_86: -1365597406
+      xbox-series_sheet_double_87: -1611043382
+      xbox-series_sheet_double_88: -1570039454
+      xbox-series_sheet_double_89: 1906469291
+      xbox-series_sheet_double_90: 224614484
+      xbox-series_sheet_double_91: -1342986352
+      xbox-series_sheet_double_92: 1282124725
+      xbox-series_sheet_double_93: -1634628959
+      xbox-series_sheet_double_94: 1972295837
+      xbox-series_sheet_double_95: -531920509
+      xbox-series_sheet_double_96: 1326541205
+      xbox-series_sheet_double_97: 246279957
+      xbox-series_sheet_double_98: -447621273
+      xbox-series_sheet_double_99: -289866686
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

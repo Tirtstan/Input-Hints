@@ -35,10 +35,10 @@ MonoBehaviour:
     Glyph: {fileID: -1478825259, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
     TMPSpriteName: 
   - ControlPath: 8
-    Glyph: {fileID: 273071727, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    Glyph: {fileID: -1528865176, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
     TMPSpriteName: 
   - ControlPath: 9
-    Glyph: {fileID: 615479923, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    Glyph: {fileID: 1531104915, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
     TMPSpriteName: 
   - ControlPath: 0
     Glyph: {fileID: 1325720617, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
@@ -65,10 +65,10 @@ MonoBehaviour:
     Glyph: {fileID: -1478825259, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
     TMPSpriteName: 
   - ControlPath: numpad8
-    Glyph: {fileID: 273071727, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    Glyph: {fileID: -1528865176, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
     TMPSpriteName: 
   - ControlPath: numpad9
-    Glyph: {fileID: 615479923, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
+    Glyph: {fileID: 1531104915, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}
     TMPSpriteName: 
   - ControlPath: numpad0
     Glyph: {fileID: 1325720617, guid: a441faa51f0083b409f0b841d59e4b47, type: 3}

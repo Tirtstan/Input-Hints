@@ -44,10 +44,10 @@ MonoBehaviour:
     Glyph: {fileID: -1912928816, guid: 2a942e2204281344a8f01aa870b3223a, type: 3}
     TMPSpriteName: 
   - ControlPath: leftStickPress
-    Glyph: {fileID: 2054135346, guid: 2a942e2204281344a8f01aa870b3223a, type: 3}
+    Glyph: {fileID: -1731604615, guid: 2a942e2204281344a8f01aa870b3223a, type: 3}
     TMPSpriteName: 
   - ControlPath: rightStickPress
-    Glyph: {fileID: -853753831, guid: 2a942e2204281344a8f01aa870b3223a, type: 3}
+    Glyph: {fileID: 896745580, guid: 2a942e2204281344a8f01aa870b3223a, type: 3}
     TMPSpriteName: 
   - ControlPath: dpad
     Glyph: {fileID: 145028213, guid: 2a942e2204281344a8f01aa870b3223a, type: 3}
@@ -89,9 +89,9 @@ MonoBehaviour:
     Glyph: {fileID: -717094482, guid: 2a942e2204281344a8f01aa870b3223a, type: 3}
     TMPSpriteName: 
   - ControlPath: rightStick/left
-    Glyph: {fileID: -515054783, guid: 2a942e2204281344a8f01aa870b3223a, type: 3}
+    Glyph: {fileID: 969591489, guid: 2a942e2204281344a8f01aa870b3223a, type: 3}
     TMPSpriteName: 
   - ControlPath: rightStick/right
-    Glyph: {fileID: 969591489, guid: 2a942e2204281344a8f01aa870b3223a, type: 3}
+    Glyph: {fileID: -515054783, guid: 2a942e2204281344a8f01aa870b3223a, type: 3}
     TMPSpriteName: 
   tmpSpriteAsset: {fileID: 11400000, guid: c565a39778a7e444aa5c56545636c7cf, type: 2}

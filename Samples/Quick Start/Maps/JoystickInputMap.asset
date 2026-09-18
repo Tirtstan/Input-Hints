@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: tirt.input-hints::InputHints.HintMapSO
   entries:
   - ControlPath: trigger
-    Glyph: {fileID: 1987513268, guid: d4c6f037b4af04a18908f41a6881f961, type: 3}
+    Glyph: {fileID: 1704070406, guid: d4c6f037b4af04a18908f41a6881f961, type: 3}
     TMPSpriteName: 
   - ControlPath: stick
-    Glyph: {fileID: -1230346486, guid: d4c6f037b4af04a18908f41a6881f961, type: 3}
+    Glyph: {fileID: 447770148, guid: d4c6f037b4af04a18908f41a6881f961, type: 3}
     TMPSpriteName: 
   - ControlPath: stick/up
-    Glyph: {fileID: 777341329, guid: d4c6f037b4af04a18908f41a6881f961, type: 3}
+    Glyph: {fileID: -1159441781, guid: d4c6f037b4af04a18908f41a6881f961, type: 3}
     TMPSpriteName: 
   - ControlPath: stick/down
     Glyph: {fileID: 1587662602, guid: d4c6f037b4af04a18908f41a6881f961, type: 3}
