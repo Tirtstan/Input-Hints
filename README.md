@@ -56,7 +56,7 @@ https://github.com/Tirtstan/Input-Hints.git
 To install a specific version, append a tag:
 
 ```console
-https://github.com/Tirtstan/Input-Hints.git#v2.1.0
+https://github.com/Tirtstan/Input-Hints.git#v2.2.1
 ```
 
 ### Via `manifest.json`

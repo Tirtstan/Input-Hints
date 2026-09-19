@@ -75,7 +75,13 @@ namespace InputHints.Display
 
         public virtual int layoutPriority => EnableLayoutElement ? LayoutElementPriority : -1;
         public virtual float minWidth => -1;
+#if UNITY_6000_6_OR_NEWER
+        public virtual float maxWidth => float.PositiveInfinity;
+#endif
         public virtual float minHeight => -1;
+#if UNITY_6000_6_OR_NEWER
+        public virtual float maxHeight => float.PositiveInfinity;
+#endif
         public virtual float preferredWidth
         {
             get
