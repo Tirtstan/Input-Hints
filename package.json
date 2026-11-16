@@ -1,20 +1,25 @@
 {
     "name": "com.tirt.input-hints",
     "displayName": "Input Hints",
-    "version": "2.2.1",
+    "version": "2.3.0",
     "unity": "2021.3",
     "description": "A package that provides a set of tools to display input hints in Unity.",
     "author": {
         "name": "Tirt",
         "url": "https://github.com/Tirtstan"
     },
-    "documentationUrl": "README.md",
-    "licensesUrl": "LICENSE.md",
+    "dependencies": {
+        "com.unity.inputsystem": "1.7.0",
+        "com.unity.ugui": "1.0.0"
+    },
+    "documentationUrl": "https://github.com/Tirtstan/Input-Hints#readme",
+    "changelogUrl": "https://github.com/Tirtstan/Input-Hints/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/Tirtstan/Input-Hints/blob/main/LICENSE.md",
     "samples": [
         {
             "displayName": "Quick Start",
             "description": "Contains the resources (sprites, input maps) to get you started quickly.",
-            "path": "Samples/Quick Start"
+            "path": "Samples~/Quick Start"
         }
     ]
 }

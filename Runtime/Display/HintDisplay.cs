@@ -19,6 +19,12 @@ namespace InputHints.Display
         [Tooltip("Input Action name used to resolve the displayed hint.")]
         public string ActionName = string.Empty;
 
+        [Tooltip(
+            "Optional Input Action shown instead when Action Name has no binding for the player's control scheme "
+                + "(e.g. Back for schemes that open Pause through Back)."
+        )]
+        public string FallbackActionName = string.Empty;
+
         [Tooltip("Optional binding index to resolve when multiple bindings are present. Default is 0.")]
         [Min(0)]
         public int BindingIndex = 0;
@@ -99,11 +105,7 @@ namespace InputHints.Display
             if (string.IsNullOrWhiteSpace(ActionName))
                 return;
 
-            InputAction action = PlayerInput.actions.FindAction(ActionName, throwIfNotFound: false);
-            if (action == null)
-                return;
-
-            if (!InputLayoutPathUtility.TryGetActionBindingPaths(action, PlayerInput.currentControlScheme, pathBuffer))
+            if (!TryGetSchemeBindingPaths(ActionName) && !TryGetSchemeBindingPaths(FallbackActionName))
             {
                 pendingHintRefresh = false;
                 ClearHint();
@@ -111,6 +113,20 @@ namespace InputHints.Display
             }
 
             OnBindingsResolved(devices, pathBuffer);
+        }
+
+        /// <summary>Fills the path buffer with the action's bindings for the player's current control scheme.</summary>
+        private bool TryGetSchemeBindingPaths(string actionName)
+        {
+            if (string.IsNullOrWhiteSpace(actionName))
+                return false;
+
+            InputAction action = PlayerInput.actions.FindAction(actionName, throwIfNotFound: false);
+            return InputLayoutPathUtility.TryGetActionBindingPaths(
+                action,
+                PlayerInput.currentControlScheme,
+                pathBuffer
+            );
         }
 
         /// <summary>
