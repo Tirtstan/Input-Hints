@@ -6,10 +6,10 @@ A lightweight, sprite-based input hint system for **Unity's Input System and UGU
 
 <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:stretch;">
   <div style="flex:1 1 280px; max-width:49%;">
-    <img src="Documentation/Images/Keyboard.png" alt="Screenshot of the input hints showing keyboard prompts" style="display:block; width:100%; height:auto;">
+    <img src="Documentation~/Images/Keyboard.png" alt="Screenshot of the input hints showing keyboard prompts" style="display:block; width:100%; height:auto;">
   </div>
   <div style="flex:1 1 280px; max-width:49%;">
-    <img src="Documentation/Images/Controller.png" alt="Screenshot of the input hints showing controller (Xbox) prompts" style="display:block; height:100%; width:auto; max-width:100%; object-fit:contain;">
+    <img src="Documentation~/Images/Controller.png" alt="Screenshot of the input hints showing controller (Xbox) prompts" style="display:block; height:100%; width:auto; max-width:100%; object-fit:contain;">
   </div>
 </div>
 
@@ -24,14 +24,16 @@ A lightweight, sprite-based input hint system for **Unity's Input System and UGU
 | Component             | Use           | Main properties                                           |
 | --------------------- | ------------- | --------------------------------------------------------- |
 | `HintMapSO`           | Asset         | Entries (path, glyph, TMP name), TMP Sprite Asset         |
-| `HintImage`           | UGUI          | Player Input, Action Name, Binding Index, Image           |
-| `HintSpriteRenderer`  | World / 2D    | Player Input, Action Name, Binding Index, Sprite Renderer |
-| `HintComposite`       | Multi-binding | Player Input, Action Name, Child Prefab, Container        |
+| `HintImage`           | UGUI          | Player Input, Action Name, Fallback Action Name, Binding Index, Image           |
+| `HintSpriteRenderer`  | World / 2D    | Player Input, Action Name, Fallback Action Name, Binding Index, Sprite Renderer |
+| `HintComposite`       | Multi-binding | Player Input, Action Name, Fallback Action Name, Child Prefab, Container        |
 | `HintRow`             | Path row      | Control Paths, Devices, Child Prefab, Container           |
 | `HintTMPText`         | TMP text      | Target Text, Player Input, Input Action Names             |
 | Provider initializers | Bootstrap     | Hint Map(s) per device type                               |
 
 TMP example: `Press <action="Jump"> to jump.`
+
+Set **Fallback Action Name** on a display when some control schemes reach the same result through another action. For example, show `Back` for schemes with no `Pause` binding that open the pause menu with Back.
 
 > `PlayerInput` notification behavior must be **Invoke Unity Events** or **Invoke C# Events** for automatic device-change updates.
 
@@ -56,7 +58,7 @@ https://github.com/Tirtstan/Input-Hints.git
 To install a specific version, append a tag:
 
 ```console
-https://github.com/Tirtstan/Input-Hints.git#v2.2.1
+https://github.com/Tirtstan/Input-Hints.git#v2.3.0
 ```
 
 ### Via `manifest.json`
@@ -79,11 +81,11 @@ Add to `Packages/manifest.json`:
 
 This package includes a **Quick Start** sample you can import from the Package Manager. It comes with **[Kenney's input prompt sprites](https://kenney.nl/assets/input-prompts)** and **pre-configured hint maps** (`HintMapSO`) so you can see everything working immediately and copy the setup into your project.
 
-- In Unity: **Window > Package Manager** → select `com.tirt.input-hints` → **Samples** → **Quick Start** → **Import**.
+- In Unity: **Window > Package Manager** → select `com.tirt.input-hints` → **Samples** → **Quick Start** → **Import**. Unity copies it to `Assets/Samples/Input Hints/<version>/Quick Start`, where you can edit it freely.
 
 ### From Scratch
 
-1. Create one or more **Hint Map** assets (**Assets > Create > Input Hints > Hint Map**). For each entry, set the control path (e.g. `buttonSouth`, `a`, `space`) and assign sprites (and optional TMP sprite names). If you import the **Quick Start** sample (below), you can skip this step to start.
+1. Create one or more **Hint Map** assets (**Assets > Create > Input Hints > Hint Map**). For each entry, set the control path (e.g. `buttonSouth`, `a`, `space`) and assign sprites (and optional TMP sprite names). If you import the **Quick Start** sample (above), you can skip this step to start.
 
 2. Add **provider initializer** components to a bootstrap scene (order defines query order):
     - **Gamepad Hint Provider** — assign fallback and subtype maps as needed.

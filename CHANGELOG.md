@@ -5,6 +5,19 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.3.0]](https://github.com/Tirtstan/Input-Hints/releases/tag/v2.3.0) - 2026-11-16
+
+### Added
+
+- Added `FallbackActionName` to hint displays (`HintImage`, `HintSpriteRenderer`, `HintComposite`). When the main action has no binding for the player's control scheme, the display shows the fallback action's glyph instead of nothing.
+
+### Changed
+
+- A hint display whose action can't be found in the player's action asset now clears its glyph instead of keeping the previous one.
+- Moved the Quick Start sample to `Samples~` and the README images to `Documentation~`, so Unity no longer imports them into every project. Import the sample from the Package Manager to use its sprites and hint maps. **Breaking:** projects that referenced the sample's assets inside the package must import the sample first. Its assets keep their GUIDs, so existing references reconnect.
+- Declared the Input System and Unity UI dependencies in `package.json`, and pointed the documentation, changelog and license links at the GitHub repository.
+- Updated the test assembly to the current Test Framework setup.
+
 ## [[2.2.1]](https://github.com/Tirtstan/Input-Hints/releases/tag/v2.2.1) - 2026-09-19
 
 ### Fixed

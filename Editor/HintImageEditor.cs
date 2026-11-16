@@ -25,6 +25,7 @@ namespace InputHints.Editor
             EditorGUILayout.PropertyField(serializedObject.FindProperty("Image"));
             EditorGUILayout.PropertyField(serializedObject.FindProperty("PlayerInput"));
             EditorGUILayout.PropertyField(serializedObject.FindProperty("ActionName"));
+            EditorGUILayout.PropertyField(serializedObject.FindProperty("FallbackActionName"));
             EditorGUILayout.PropertyField(serializedObject.FindProperty("BindingIndex"));
 
             EditorGUILayout.Space();
